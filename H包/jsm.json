@@ -29,7 +29,6 @@
 		},
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{"key":"py_cctv","name": "📺CCTV📺","type": 3,"api": "./py/py_cctv_1.py","searchable": 0,"quickSearch": 0,"filterable": 0},
-		{"key":"Yingtantv","name": "💯影探┃TV┃App","type":3,"api":"csp_Yingtantv","searchable":1,"changeable":0,"jar":"./影探王二小放牛娃.jar"},
 		{"key":"Cable","name":"CableAV需挂梯","type":3,"api":"csp_Cable","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://cableav.tv/"},
 		{"key": "MissAV",
 		"name":"MissAV需挂梯",
