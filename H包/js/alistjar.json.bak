@@ -1,0 +1,64 @@
+{
+    "drives": [
+        {
+            "name": "远程alist",
+            "search": true,
+            "searchable": true,
+            "server": "https://86bd5a7f-1d7b-4fb9-963a-297af29c719b-00-21snn785l1p4z.kirk.replit.dev/"
+        },
+        {
+            "name": "翠花",
+            "search": true,
+            "searchable": true,
+            "server": "https://alist10086.run.goorm.site/",
+            "params": [
+                {
+                    "path": "/OneDrive",
+                    "pass": "dooglu"
+                },
+                {
+                    "path": "/115Cloud",
+                    "pass": "dooglu"
+                }
+            ]
+        },
+        {
+            "name": "盒子",
+            "search": true,
+            "searchable": true,
+            "server": "http://192.168.31.239:5244/"
+        },
+        {
+            "name": "手机",
+            "search": true,
+            "searchable": true,
+            "server": "http://192.168.31.176:5244/"
+        },
+        {
+            "name": "eduedu",
+            "search": true,
+            "searchable": true,
+            "server": "https://alist.eduedu.eu.org"
+        },
+        {
+            "name": "9T",
+            "server": "https://drive.9t.ee",
+            "params": [
+                {
+                    "path": "/OneDrive",
+                    "pass": "dooglu"
+                },
+                {
+                    "path": "/115Cloud",
+                    "pass": "dooglu"
+                }
+            ]
+        },
+        {
+            "name": "七米藍",
+            "server": "https://al.chirmyram.com/",
+            "user": "alist",
+            "pass": "alist"
+        }
+    ]
+}
