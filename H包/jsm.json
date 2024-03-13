@@ -195,6 +195,28 @@
                 "分类url": "https://www.xcupfox.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html"
             },
             "jar": "./Yoursmile.jar"
+        },     
+        {
+            "key": "csp_XBPQ_Gimy剧迷",
+            "name": "Gimy剧迷（正规）",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "./Yoursmile.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/Gimy剧迷.json"
+        },
+        {
+            "key": "csp_XBPQ_freeok",
+            "name": "freeok影视（正规）",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/FreeOK.json"
         },
         {
             "key": "drpy_js_18哈",
@@ -341,6 +363,28 @@
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
+        },
+        {
+            "key": "csp_XBPQ_试衣间做爱",
+            "name": "试衣间做爱🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./XBPQ1.jar",
+            "ext": "./lib/试衣间做爱.json"
+        },
+        {
+            "key": "csp_麻豆",
+            "name": "竹子哥麻豆🔞🛩️",
+            "api": "csp_madou",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "jar": "./Madou.jar",
+            "ext": "https://21ppoo.vip"
         },
         {
             "key": "csp_xBPQ_GAOAA",
