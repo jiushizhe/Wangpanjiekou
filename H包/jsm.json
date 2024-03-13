@@ -1052,6 +1052,16 @@
             "filterable": 0,
             "ext": "https://qu.ax/NQxf.json",
             "jar": "https://qu.ax/jKoN.js"
+        },      
+        {
+            "key": "精品采集",
+            "name": "精品X资源 ",
+            "type": 1,
+            "api": "http://www.jingpinx.com/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_xBPQ_香蕉废柴",
