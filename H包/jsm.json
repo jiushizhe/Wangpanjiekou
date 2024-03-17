@@ -213,6 +213,27 @@
             "filterable": 1
         },
         {
+            "key": "赘婿影视",
+            "name": "🌺赘婿┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "video-img lazyload&&</p>",
+                "副标题": "mr-xs-0\">&&</span>",
+                "简介": "entry-content clearfix\">&&</p>",
+                "线路数组": "data-target=\"#ewave-playlist-&&</li>",
+                "线路标题": ">&&</a>",
+                "播放数组": "<ul class=\"row ewave-tab-content ewave-playlist-content&&</ul>",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "分类url": "https://zhuixu.cc/type/{cateId}-{catePg}/",
+                "分类": "剧集$2#电影$1#番剧$4#纪录$39#短剧$44#体育$45#娱乐$46#解说$48"
+            },
+            "jar": "./Yoursmile.jar"
+        },
+        {
             "key": "csp_XYQHiker_可可影视",
             "name": "可可影视",
             "type": 3,
@@ -222,6 +243,31 @@
             "filterable": 0,
             "ext": "./lib/可可影视.json",
             "jar": "./xyq0306.jar"
+        },
+        {
+            "key": "韩片网",
+            "name": "🌳韩片┃影网",
+            "type": 3,
+            "playerType": 2,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "<li class=\"mo-paxs-5px mo-pamd-10px&&</li>",
+                "图片": "data-original=\"&&\"",
+                "标题": "/\">&&</a>",
+                "副标题": "mo-coxs-center\">&&</span>",
+                "简介": "讲述<p>&&</p>",
+                "链接": "href=\"&&\"",
+                "线路数组": "mo-prxs-2px mo-fsxs-16px&&/a>",
+                "线路标题": "</i>&&<",
+                "播放数组": "<ul class=\"mo-movs-item mo-sort-boxs&&</ul>",
+                "搜索url": "https://www.hanpian.tv/search/{wd}-------------/",
+                "分类url": "https://www.hanpian.tv/so/{cateId}/{area}-{by}--{lang}----{catePg}---{year}/",
+                "分类": "电影$movie#电视剧$tv#综艺$variety#动漫片$anime"
+            },
+            "jar": "./Yoursmile.jar"
         },
         {
             "key": "csp_XBPQ_爱电影",
@@ -288,9 +334,20 @@
             }
         },
         {
+            "key": "csp_appys_影盒",
+            "name": "❤影探主接口|4K",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+             "jar": "./yt.jar",
+            "filterable": 1,
+            "ext": "http://cms-yttv.lyyytv.cn/api.php/app/"
+        },
+        {
             "key": "星辰影院",
             "name": "星辰┃海外（正规）",
-             "jar": "./Yoursmile.jar",
+            "jar": "./Yoursmile.jar",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -826,6 +883,45 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./lib/GAOAA.json"
+        },
+        {
+            "key": "csp_XBPQ_無碼情色站",
+            "name": "無碼情色站",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "./HeChengChaXiu.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "",
+                "热门推荐": "1",
+                "直接播放": "0",
+                "数组": "<div class=\"embed-responsive embed-responsive-16by9 position-relative\">&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://www.arival.space/q/{wd}?category_id=&page={pg}",
+                "搜索模式": "1",
+                "搜索数组": "<div class=\"embed-responsive embed-responsive-16by9 position-relative\">&&</div>",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索标题": "alt=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "播放二次截取": "<script type=\"application/ld+json\">&&<footer class=\"main-footer\">",
+                "播放数组": "if(!/bot&&</div>",
+                "状态": "更新：&&</span>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
+                "简介": "简介：&&</span>",
+                "播放列表": "document.querySelector&&;}}",
+                "播放标题": "第一节",
+                "播放链接": "com#&&\"",
+                "嗅探词": ".m3u8",
+                "播放请求头": "",
+                "分类": "国产自拍$263#日本五码$270#91大神$314#欧美精品$260#抖音视频$25#女同性$115#三级字幕$442#91探花$455#偷拍自拍$278#国产传媒$390#台湾涩情$412",
+                "分类url": "https://www.arival.space/cat/{cateId}?page={catePg}",
+                "筛选": "263"
+            }
         },
         {
             "key": "GAOAA女优",
