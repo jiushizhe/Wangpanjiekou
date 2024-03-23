@@ -45,6 +45,86 @@
             "ext": "./js/lf_live.txt"
         },
         {
+            "key": "AliShare",
+            "name": "阿里云盘影视分享",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "AliShareEBook",
+            "name": "阿里云盘书籍分享",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/alishare.ebook.txt$$$db$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "QuarkShare",
+            "name": "夸克云盘分享",
+            "type": 3,
+            "api": "csp_QuarkShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/quarkshare.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "QuarkShare1",
+            "name": "夸克云盘分享1",
+            "type": 3,
+            "api": "csp_QuarkShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/quarkshare_TZ.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "ThunderShare",
+            "name": "迅雷云盘分享",
+            "type": 3,
+            "api": "csp_ThunderShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/thundershare.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
             "key": "csp_XYQHikerQ_爱高清",
             "name": "爱高清（正规）🧲",
             "type": 3,
@@ -54,6 +134,18 @@
             "filterable": 1,
             "jar": "./XYQ(g).jar",
             "ext": "./lib/xyqh_爱高清.json"
+        },
+        {
+            "key": "PushShare10",
+            "name": "我的资源分享（网盘）",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1"
         },
         {
             "key": "PushShare",
@@ -173,7 +265,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1"
+            "ext": "./lib/tokenm.json$$$./lib/磁力.txt$$$db$$$1"
         },
         {
             "key": "AList",
@@ -202,6 +294,32 @@
             "searchable": 1,
             "jar": "./牛耳.jar",
             "changeable": 0
+        },{
+            "key": "Bt0",
+            "name": "不太灵|磁力🧲",
+            "type": 3,
+            "api": "csp_Bt0",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
+        {
+            "key": "Clg",
+            "name": "磁力狗🧲",
+            "type": 3,
+            "api": "csp_Clg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
         },
         {
             "key": "py_新风",
@@ -340,9 +458,9 @@
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
-             "jar": "./yt.jar",
+            "jar": "./yt.jar",
             "filterable": 1,
-            "ext": "http://cms-yttv.lyyytv.cn/api.php/app/"
+            "ext": "http://vipcms.lyyytv.cn/api.php/app/"
         },
         {
             "key": "星辰影院",
@@ -354,6 +472,28 @@
                 "分类url": "https://www.sccd.net/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
                 "分类": "电视剧$dsj#电影$by"
             }
+        },
+        {
+            "key": " 网飞猫 ",
+            "name": "😾网飞┃小猫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}-{area}--{year}-{by}-{catePg}.html;;rc",
+                "分类": "电影&连续剧&动漫&综艺纪录&短剧",
+                "分类值": "1&2&3&4&6",
+                "数组": "<div class=\"module-item&&</a>",
+                "图片": "https://vres.vukfnqr.com+data-original=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "item-bottom\"> <span>&&</span>",
+                "链接": "href=\"&&\""
+            },
+            "jar": "./Yoursmile.jar"
         },
         {
             "key": "嗷呜动漫",
@@ -451,6 +591,24 @@
             "filterable": 1,
             "ext": "./lib/童话村.json",
             "jar": "./HeChengChaXiu.jar"
+        },
+        {
+            "key": "蜂鸟影视",
+            "name": "蜂鸟影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./Yoursmile.jar",
+            "ext": {
+                "数组": "item&&</li>",
+                "标题": "title*>&&</a>",
+                "副标题": "center\"&&</a>",
+                "线路数组": "head&&</ul>",
+                "线路标题": "xvi\">&&</li>",
+                "播放数组": "rows\">&&</ul>",
+                "播放列表": "info&&</a>",
+                "分类url": "https://fnyy8.com/vshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+                "分类": "电影$dy#电视剧$tv#综艺$zy#动漫$dm#伦理$lunli"
+            }
         },
         {
             "key": "海兔影院",
@@ -699,6 +857,23 @@
             }
         },
         {
+            "key": "C影视",
+            "name": "🦋CC┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "简介": "<p class=\"col-pd\">&&</p>",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "分类url": "https://www.c-tv6.cc/video/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
+                "分类": "电影&连续剧&综艺&动漫&爽文短剧&伦理片",
+                "分类值": "dianying&lianxuju&zongyi&dongman&shuangwenduanju&lunlipian"
+            },
+            "jar": "./Yoursmile.jar"
+        },
+        {
             "key": "努努影院",
             "name": "努努影院（正规有福利）",
             "type": 3,
@@ -818,6 +993,32 @@
             }
         },
         {
+            "key": "黄AV(PGX电影)",
+            "name": "YellowAV资源(苹果)",
+            "type": 0,
+            "api": "https://www.pgxdy.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "鸡坤资源",
+            "name": "鸡坤资源",
+            "type": 1,
+            "api": "https://jkunzyapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "QQ传媒",
+            "name": "QQ传媒",
+            "type": 1,
+            "api": "https://qqcm.sbs/api.php/provide/vod/",
+            "searchable": 0,
+            "quickSearch": 0
+        },
+        {
             "key": "ltube.life",
             "name": "🐛ltube┃life🔞🛩️",
             "type": 3,
@@ -886,7 +1087,7 @@
         },
         {
             "key": "csp_XBPQ_無碼情色站",
-            "name": "無碼情色站",
+            "name": "無碼情色站🔞",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -925,7 +1126,7 @@
         },
         {
             "key": "GAOAA女优",
-            "name": "🍁GAOAA女优",
+            "name": "🍁GAOAA女优🔞",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./wyog2.jar",
@@ -951,7 +1152,7 @@
         },
         {
             "key": "csp_XBPQ_AV兄弟",
-            "name": "AV兄弟",
+            "name": "AV兄弟🔞",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -1366,7 +1567,39 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 60,
-            "ext": "http://javdb523.com"
+            "ext": "http://javdb.com"
+        },
+        {
+            "key": "Xojav",
+            "name": "XOJav🔞",
+            "type": 3,
+            "api": "csp_Xojav",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "null$$$proxy",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "SeHuaTang",
+            "name": "色花堂|网盘🔞",
+            "type": 3,
+            "api": "csp_SeHuaTang",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "null$$$proxy",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
         },
         {
             "key": "Taohuazu",
