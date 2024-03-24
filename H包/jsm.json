@@ -45,6 +45,63 @@
             "ext": "./js/lf_live.txt"
         },
         {
+            "key": "直播转点播2",
+            "name": "💃┃福利┃直播🔞",
+            "type": 3,
+            "api": "./js/直播转点播.js",
+            "ext": "./js/福利台.txt"
+        },
+        {
+            "key": "直播转点播",
+            "name": "🐼️┃电视┃直播🔞",
+            "type": 3,
+            "searchable": 0,
+            "api": "./lib/live2vod.js",
+            "ext": "./lib/feimaolive.json"
+        },
+        {
+            "key": "ss直播",
+            "name": "🔞ss直播",
+            "type": 3,
+            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/ss直播.js"
+        },
+        {
+            "key": "Clg",
+            "name": "🐶磁力狗🧲",
+            "type": 3,
+            "api": "csp_Clg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "BtSearch",
+            "name": "BtSearch🧲",
+            "type": 3,
+            "api": "csp_BtSearch",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://www.btsearch.love/$$$proxy$$$1",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
             "key": "AliShare",
             "name": "阿里云盘影视分享",
             "type": 3,
@@ -284,7 +341,7 @@
             "api": "csp_Pandalivetv",
             "searchable": 0,
             "changeable": 0,
-            "jar": "./牛耳.jar"
+            "jar": "./小二在线.jar"
         },
         {
             "key": "Yinyuetai",
@@ -294,7 +351,8 @@
             "searchable": 1,
             "jar": "./牛耳.jar",
             "changeable": 0
-        },{
+        },
+        {
             "key": "Bt0",
             "name": "不太灵|磁力🧲",
             "type": 3,
@@ -306,26 +364,19 @@
             "ext": "null$$$null$$$1"
         },
         {
-            "key": "Clg",
-            "name": "磁力狗🧲",
-            "type": 3,
-            "api": "csp_Clg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-        {
             "key": "py_新风",
-            "name": "⭐新风影视",
+            "name": "⭐新风影视py",
             "type": 3,
             "api": "./py/新风影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_娱乐大师",
+            "name": "⭐娱乐大师py",
+            "type": 3,
+            "api": "./py/娱乐大师.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -450,6 +501,17 @@
                 "分类值": "1&2&3&4",
                 "公众号卫华正能量大爱学堂出品": ""
             }
+        },
+        {
+            "key": "美剧迷",
+            "name": "美剧迷|网盘",
+            "type": 3,
+            "api": "csp_Meijumi",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"
         },
         {
             "key": "csp_appys_影盒",
@@ -993,8 +1055,41 @@
             }
         },
         {
+            "key": "csp_XYQHiker_777影院",
+            "name": "777影院🔞",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./xyq0306.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/777影院.json"
+        },
+        {
+            "key": "csp_XBPQ_疯猫av",
+            "name": "疯猫av🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./lib/疯猫av.json"
+        },
+        {
+            "key": "csp_XBPQ_奶很大",
+            "name": "奶很大🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./lib/奶很大.json"
+        },
+        {
             "key": "黄AV(PGX电影)",
-            "name": "YellowAV资源(苹果)",
+            "name": "YellowAV资源(苹果)🔞",
             "type": 0,
             "api": "https://www.pgxdy.com/api/xml.php",
             "searchable": 1,
@@ -1003,7 +1098,7 @@
         },
         {
             "key": "鸡坤资源",
-            "name": "鸡坤资源",
+            "name": "鸡坤资源🔞",
             "type": 1,
             "api": "https://jkunzyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -1012,7 +1107,7 @@
         },
         {
             "key": "QQ传媒",
-            "name": "QQ传媒",
+            "name": "QQ传媒🔞",
             "type": 1,
             "api": "https://qqcm.sbs/api.php/provide/vod/",
             "searchable": 0,
@@ -1084,6 +1179,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./lib/GAOAA.json"
+        },
+        {
+            "key": "py_千度",
+            "name": "⭐千度py🔞",
+            "type": 3,
+            "api": "./py/千度.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_XBPQ_無碼情色站",
@@ -1567,11 +1671,11 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 60,
-            "ext": "http://javdb525.com"
+            "ext": "http://javdb.com"
         },
         {
             "key": "Xojav",
-            "name": "XOJav🔞",
+            "name": "XOJav🔞🛩️",
             "type": 3,
             "api": "csp_Xojav",
             "searchable": 1,
@@ -1781,31 +1885,6 @@
                 "分类": "国产传媒&日本&国产&韩国&泰国&欧美&动画&中文字幕&VR",
                 "分类值": "160&2&1&4&82&5&6&9&3"
             }
-        },
-        {
-            "key": "直播转点播2",
-            "name": "💃┃福利┃直播🔞",
-            "type": 3,
-            "api": "./js/直播转点播.js",
-            "ext": "./js/福利台.txt"
-        },
-        {
-            "key": "直播转点播",
-            "name": "🐼️┃电视┃直播🔞",
-            "type": 3,
-            "searchable": 0,
-            "api": "./lib/live2vod.js",
-            "ext": "./lib/feimaolive.json"
-        },
-        {
-            "key": "ss直播",
-            "name": "🔞ss直播",
-            "type": 3,
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/ss直播.js"
         },
         {
             "key": "zzdj短剧",
