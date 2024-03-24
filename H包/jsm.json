@@ -102,6 +102,17 @@
             }
         },
         {
+            "key": "BtSow",
+            "name": "BtSow🧲",
+            "type": 3,
+            "api": "csp_BtSearch",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
+        {
             "key": "AliShare",
             "name": "阿里云盘影视分享",
             "type": 3,
@@ -333,15 +344,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./js/alistjar.json"
-        },
-        {
-            "key": "Pandalivetv",
-            "name": "💯韩国┃美女┃直播",
-            "type": 3,
-            "api": "csp_Pandalivetv",
-            "searchable": 0,
-            "changeable": 0,
-            "jar": "./小二在线.jar"
         },
         {
             "key": "Yinyuetai",
