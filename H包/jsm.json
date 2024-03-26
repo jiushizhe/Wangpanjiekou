@@ -70,6 +70,15 @@
             "ext": "./js/ss直播.js"
         },
         {
+            "key": "Pandalivetv",
+            "name": "💯韩女直播",
+            "type": 3,
+            "api": "csp_WexPandalivetv",
+            "searchable": 0,
+            "changeable": 0,
+            "jar": "./wex.jar"
+        },
+        {
             "key": "Clg",
             "name": "🐶磁力狗🧲",
             "type": 3,
@@ -1140,7 +1149,7 @@
             "api": "./py/熊猫秒播.py",
             "filterable": 1,
             "key": "py熊猫秒播",
-            "name": "熊猫秒播🔞",
+            "name": "熊猫秒播py🔞",
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
