@@ -375,6 +375,15 @@
             "ext": "null$$$null$$$1"
         },
         {
+            "key": "py_白嫖",
+            "name": "⭐白嫖py",
+            "type": 3,
+            "api": "./py/白嫖.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "py_新风",
             "name": "⭐新风影视py",
             "type": 3,
@@ -414,15 +423,19 @@
             "jar": "./Yoursmile.jar"
         },
         {
-            "key": "csp_XYQHiker_可可影视",
+            "key": "可可影视",
             "name": "可可影视",
             "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./lib/可可影视.json",
-            "jar": "./xyq0306.jar"
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "ext": {
+                "简介": "detail-desc\">&&</div>",
+                "图片": "data-original=\"&&\"[替换:/vod1>>https://vres.a357899.cn/vod1]",
+                "线路数组": "javascript:void(0)\" class=\"source-item\">&&</a>",
+                "播放数组": "episode-list\"&&</div>",
+                "分类url": "https://www.keke4.app/show/{cateId}-{class}-{area}--{year}-3-{catePg}.html",
+                "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6"
+            }
         },
         {
             "key": "韩片网",
@@ -1796,6 +1809,39 @@
                 "分类值": "9&1&4&2&12&3&7&6&8&10&11"
             },
             "jar": "./HeChengChaXiu.jar"
+        },
+        {
+            "key": "csp_91黑料",
+            "name": "91黑料",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$PC_UA",
+                "主页url": "https://kb17.oneoneno8cd345.xyz/one",
+                "首页": "400",
+                "数组": "<a&&</a>[不包含:91网曝黑料网#最近更新]",
+                "二次截取": "<div class=\"videoListBox\"&&el-pagination is-background",
+                "标题": "title\">&&</p>",
+                "副标题": "time\">&&</div>",
+                "链接": "href=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "线路数组": "unLoginBox&&</div>",
+                "线路标题": "黑料线路",
+                "播放数组": "unLoginBox&&</div>",
+                "播放列表": "<a&&</a>",
+                "播放标题": "<span>&&</span>",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+                "搜索url": "https://kb17.oneoneno8cd345.xyz/s/wd/{wd}/",
+                "分类url": "https://kb17.oneoneno8cd345.xyz/t/{cateId}-{catePg}/",
+                "分类数组": "<a&&</a>",
+                "分类标题": ">&&</a>",
+                "分类ID": "/t/&&/"
+            }
         },
         {
             "key": "玩偶",
