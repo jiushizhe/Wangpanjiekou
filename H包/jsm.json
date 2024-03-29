@@ -1844,6 +1844,17 @@
             }
         },
         {
+            "key": "csp_XBPQ_黑料",
+            "name": "💋黑料┃91",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/91黑料.json",
+            "jar": "./xyqxbpq.jar"
+        },
+        {
             "key": "玩偶",
             "name": "玩偶🔞🛩️",
             "type": 3,
