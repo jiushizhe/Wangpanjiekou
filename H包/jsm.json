@@ -1079,6 +1079,41 @@
             }
         },
         {
+            "key": "Hanime",
+            "name": "里番🔞",
+            "type": 3,
+            "api": "csp_Hanime",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_Gxqvlj",
+            "name": "Gxqvlj🔞🛩️",
+            "type": 3,
+            "api": "csp_Gxqvlj",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_AvTime",
+            "name": "AvTime🔞",
+            "type": 3,
+            "api": "csp_AvTime",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "Zuise",
+            "name": "💃 | 最色🔞",
+            "type": 3,
+            "api": "csp_Zuise",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
+        {
             "key": "csp_XYQHiker_777影院",
             "name": "777影院🔞",
             "type": 3,
