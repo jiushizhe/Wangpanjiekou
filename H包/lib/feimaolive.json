@@ -36,7 +36,23 @@
         "url": "https://files.catbox.moe/2o0yqn.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     },
     {
-        "name": "修改版松视",
+        "name": "免翻松视",
         "url": "https://files.catbox.moe/u5cv9x.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
+    },
+    {
+        "name": "天霜直播",
+        "url": "https://files.catbox.moe/j1tvld.txt&&&https://tuapi.eees.cc/api.php?category=dongman&px=m&type=302"
+    },
+    {
+        "name": "vip直播",
+        "url": "https://files.catbox.moe/3m5dbm.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
+    },
+    {
+        "name": "m3u8源",
+        "url": "https://files.catbox.moe/d105dv.m3u&&&https://tuapi.eees.cc/api.php?category=dongman&px=m&type=302"
+    },
+    {
+        "name": "续（松视）",
+        "url": "https://files.catbox.moe/ieviub.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     }
 ]
