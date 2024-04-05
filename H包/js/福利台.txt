@@ -10,14 +10,14 @@
     },
 {
     "name": "🥔麻豆",
-        "url":"https://qu.ax/XstR.txt&&&https://zhcnli.cn/API/tupian.php?type=hs"
+        "url":"https://qu.ax/XstR.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     },
  {
         "name": "💙精彩台福利",
         "url": "https://pan.shangui.cc/f/kznXFR/%E6%9C%80%E6%96%B0%E7%94%B5%E8%A7%86%E6%BA%90.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     }, {
         "name": "🈵快上车资源",
-        "url":"https://files.catbox.moe/w36yqk.txt&&&https://zhcnli.cn/API/tupian.php?type=hs"
+        "url":"https://files.catbox.moe/w36yqk.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     }
 ]
 
