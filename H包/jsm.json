@@ -34,6 +34,21 @@
             "api": "csp_Local"
         },
         {
+            "ext": "eyJhcGkiOiJodHRwOi8vMTAxLjY2LjY2LjU1OjQ1NjciLCJ0b2tlbiI6IiJ9",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "丫仙女",
+            "changeable": 0,
+            "jar": "http://101.66.66.55:4567/spring.jar",
+            "style": {
+                "type": "rect"
+            },
+            "api": "csp_XiaoYa",
+            "type": 3,
+            "key": "csp_XiaoYa",
+            "searchable": 1
+        },
+        {
             "key": "lf_js_lf_live",
             "name": "🧠直播|路飞",
             "type": 3,
@@ -400,6 +415,12 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "T4-xuexi",
+            "name": "二哈学习",
+            "type": 4,
+            "api": "https://catbox.n13.club/xuexi.php"
         },
         {
             "key": "赘婿影视",
@@ -1135,6 +1156,33 @@
             }
         },
         {
+            "key": "光棍H",
+            "name": "🐼光棍┃影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "",
+                "首页url": "https://cg.33xf.cc/",
+                "数组": "",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "",
+                "简介": "",
+                "链接": "href=\"&&\"",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "免嗅": "1",
+                "分类数组": "default\"&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": " href=\"/XfDy/&&.html\"",
+                "分类url": "https://cg.33xf.cc/vodshow/{cateId}-{area}--{class}-----{catePg}---.html[https://cg.33xf.cc/XfDy/{cateId}.html]"
+            },
+            "jar": "./Yoursmile.jar"
+        },
+        {
             "key": "csp_女同",
             "name": "女同情色网🔞🛩️",
             "type": 3,
@@ -1189,6 +1237,21 @@
                 "跳转播放链接": "https://www.pornvr.me/search/m3u8?id=+href=\"/&&.html",
                 "分类": "最新$id#最多$hits#推薦$score#最好$likes",
                 "分类url": "https://www.pornvr.me/?sort={cateId}&page={catePg}[https://www.pornvr.me/?sort={cateId}]"
+            }
+        },
+        {
+            "key": "优优阁",
+            "name": "优优阁🔞",
+            "type": 3,
+            "changeable": 1,
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类": "亚洲$yazhou#欧美$oumei#国产$3guochan#动漫$dongman#伦理$lunli",
+                "分类url": "https://www.uuge5.com/vodtype/{cateId}/area/{area}/lang/{lang}/page/{catePg}/year/{year}/"
             }
         },
         {
