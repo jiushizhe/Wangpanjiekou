@@ -2,6 +2,12 @@
 {
   "name": "正常电影",
         "url": "https://files.catbox.moe/r97b32.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
+    },{
+  "name": "ipv41",
+        "url": "https://files.catbox.moe/wq95g9.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
+    },{
+  "name": "ipv42",
+        "url": "https://files.catbox.moe/swl0nl.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     },
 
 {
