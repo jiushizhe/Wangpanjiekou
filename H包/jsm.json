@@ -514,6 +514,33 @@
             "ext": "线路数组:dropdown&&</div>,线路标题:<span>&&<+【+<small>&&+集】,简介:20px;\"&&</p>,分类url:https://www.mitang.tv/vodshow/by/{by}/id/{cateId}/page/{catePg}/;;mak,分类:新番$122A#番剧$T22A#剧场$l22A#极清$m22A#美漫$G22A"
         },
         {
+            "key": "csp_动漫",
+            "name": "🌸H动┃漫网🛩️🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "searchable": 1,
+            "jar": "./Yoursmile.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "class=\"card&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "",
+                "简介": "",
+                "链接": "href=\"&&\"",
+                "主页url": "https://www.hanime.xyz/",
+                "直接播放": "1",
+                "嗅探": "1",
+                "嗅探词": ".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
+                "线路数组": "class='title py-1'>&&</h1>",
+                "线路标题": "&&</a>",
+                "分类": "最新$id#最多$hits#推薦$score#最好$likes",
+                "分类url": "https://www.hanime.xyz/?sort={cateId}&page={catePg}[https://www.hanime.xyz/?sort={cateId}]"
+            }
+        },
+        {
             "key": "万佳影院",
             "name": "万佳影院",
             "type": 3,
@@ -1181,6 +1208,121 @@
                 "分类url": "https://cg.33xf.cc/vodshow/{cateId}-{area}--{class}-----{catePg}---.html[https://cg.33xf.cc/XfDy/{cateId}.html]"
             },
             "jar": "./Yoursmile.jar"
+        },
+        {
+            "key": "小鸭H",
+            "name": "🐥小鸭┃看看🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "",
+                "首页url": "https://xiaoyakankan.com/cat/",
+                "数组": "class=\"link\"&&</a>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "",
+                "简介": "<div class=\"info\">简介&&</div>",
+                "链接": "href=\"&&\"",
+                "线路数组": "class=\"name\">&&/span>",
+                "线路标题": ">&&</span>",
+                "播放二次截取": "",
+                "播放数组": "source\":[&&]}",
+                "播放列表": "[&&]",
+                "播放标题": "\"&&\"",
+                "播放链接": "http+http&&\"",
+                "倒序": "0",
+                "搜索模式": "1",
+                "分类": "福利$15#韩国情色片$1551#日本情色片$1552#大陆情色片$1555#香港情色片$1553#美国情色片$1556#欧洲情色片$1557#印度情色片$1558#东南亚情色片$1559#其它情色片$1550#美女写真$1502#主播美女$1503",
+                "分类url": "https://xiaoyakankan.com/cat/{cateId}-{catePg}.html"
+            },
+            "jar": "./Yoursmile.jar"
+        },
+        {
+            "key": "mtkan",
+            "name": "🙉每天┃必看🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "./xyqxbpq.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "请求头": "手机",
+                "站名": "顶级国产av",
+                "主页url": "https://qoqavideo2t.click/aovaov",
+                "分类url": "https://qoqavideo2t.click/vodtype/{cateId}-{catePg}.html",
+                "直接播放": "0",
+                "分类": "中文字幕&国产情色&网爆吃瓜&探花约炮&传媒剧情",
+                "分类值": "154&151&158&168&146",
+                "嗅探词": ".m3u8#.mp4#.flv#.mp3#.m4a"
+            }
+        },
+        {
+            "key": "666",
+            "name": "撸网666🔞",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+             "jar": "./Yoursmile.jar",
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "直接播放": "1",
+                "搜索链接后缀": "-1-1.html",
+                "搜索url": "https://luw666.ink/index.php/vodsearch/----------{pg}---.html?wd={wd}&submit=",
+                "分类": "国产传媒$160#日本$2#国产$1#韩国$4#欧美$5#动画$6",
+                "分类url": "https://luw666.ink/index.php/vodtype/{cateId}-{catePg}.html"
+            }
+        },
+        {
+            "key": "langqun",
+            "name": "狼群影院",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+             "jar": "./xb.jar",
+            "filterable": 1,
+            "api": "csp_xBPQ",
+            "ext": {
+                "直接播放": "1",
+                "搜索url": "http://2028p.com/vodsearch/----------{pg}---.html?wd={wd}&submit=",
+                "分类": "无码$1#中文av$6#国产$2#制服巨乳$7#欧美$3#人妻乱伦$8#有码$4#日韩$9#自拍$10",
+                "分类url": "http://2028p.com/vodtype/{cateId}-{catePg}.html"
+            }
+        },
+        {
+            "key": "csp_女同",
+            "name": "🦄女同┃情色🔞🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "class=\"card&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "",
+                "简介": "",
+                "链接": "href=\"&&\"",
+                "主页url": "https://www.pornlesbian.live/",
+                "直接播放": "1",
+                "嗅探词": ".m3u8",
+                "线路数组": "class='title py-1'>&&</h1>",
+                "线路标题": "&&</a>",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "https://www.pornlesbian.live/search/m3u8?id=+href=\"/&&.html",
+                "分类": "最新$id#最多$hits#推薦$score#最好$likes",
+                "分类url": "https://www.pornlesbian.live/?sort={cateId}&page={catePg}[https://www.pornlesbian.live/?sort={cateId}]"
+            }
         },
         {
             "key": "csp_女同",
@@ -2707,7 +2849,7 @@
         },
         {
             "key": "lba12pi9",
-            "name": "乐播资源",
+            "name": "乐播资源🔞",
             "type": 1,
             "api": "https://lbapi9.com/api.php/provide/vod/",
             "searchable": 1,
