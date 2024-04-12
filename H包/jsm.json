@@ -423,6 +423,12 @@
             "api": "https://catbox.n13.club/xuexi.php"
         },
         {
+            "key": "T4-bpys",
+            "name": "影视-白嫖(T4)",
+            "type": 4,
+            "api": "https://catbox.n13.club/bpys.php"
+        },
+        {
             "key": "赘婿影视",
             "name": "🌺赘婿┃影视",
             "type": 3,
@@ -1210,6 +1216,47 @@
             "jar": "./Yoursmile.jar"
         },
         {
+            "key": "好色TV",
+            "name": "好色TV🔞",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "直接播放": "1",
+                "数组": "class=\"col-xs-6 col-md-3\">&&</div>",
+                "图片": "style=\"background-image: url('&&')\"",
+                "链接": "href=\"&&\"",
+                "链接前缀": "https://hsex.icu/",
+                "搜索url": "https://hsex.icu/search.htm?search={wd}&sort=new",
+                "分类": "周榜$top7#月榜$top#5分钟$5min#10分钟$long",
+                "分类url": "https://hsex.icu/{cateId}_list-{catePg}.htm;;RC"
+            }
+        },
+        {
+            "key": "2028天天看",
+            "name": "2028天天看(H)",
+            "type": 3,
+            "playerType": 2,
+            "api": "csp_XBPQ",
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "简介": "class=\"active\" style=\"width:70%;\">&&</li>",
+                "链接": "href=\"&&\"",
+                "直接播放": "1",
+                "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+                "搜索url": "http://2028p.com/vodsearch/----------{pg}---.html?wd={wd}&submit=",
+                "分类": "无码$1#中文av$6#国产$2#制服巨乳$7#欧美$3#人妻乱伦$8#有码$4#日韩$9#自拍自慰$10#动漫$5#3P和sm$11#口交颜射$12#写真伦理$13",
+                "分类url": "http://2028p.com/vodtype/{cateId}-{catePg}/[http://2028p.com/vodtype/{cateId}/]"
+            }
+        },
+        {
             "key": "小鸭H",
             "name": "🐥小鸭┃看看🔞",
             "type": 3,
@@ -1268,7 +1315,7 @@
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
-             "jar": "./Yoursmile.jar",
+            "jar": "./Yoursmile.jar",
             "filterable": 1,
             "api": "csp_XBPQ",
             "ext": {
@@ -1286,7 +1333,7 @@
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
-             "jar": "./xb.jar",
+            "jar": "./xb.jar",
             "filterable": 1,
             "api": "csp_xBPQ",
             "ext": {
@@ -2112,6 +2159,43 @@
             }
         },
         {
+            "key": " ♥️色花堂  ",
+            "name": "♥️色花堂",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "站名": "色花堂",
+                "主页url": "https://6lhzry.com",
+                "数组": "<div class=\"img-box cover-md\">&&</h6>",
+                "图片": "data-original=\"&&\"",
+                "标题": "<h6 class=\"title\">&&</a>",
+                "链接": "href=\"&&\"",
+                "副标题": "<div class=\"ribbon-top-left\">&&</span>",
+                "线路数组": "<div class=\"item line\">&&</div>[排序:线路一>线路二>线路三]",
+                "线路标题": ">&&</a>",
+                "搜索url": "https://6lhzry.com/vodsearch/{wd}----------{pg}---.html",
+                "搜索模式": "1",
+                "搜索副标题": "<span class=\"score\">&&</span>",
+                "搜索后缀": "/vodplay/",
+                "播放数组": "class=\"item line\">&&</div>",
+                "影片类型": "<p class=\"sub-title\">&&</p>",
+                "导演": "class=\"data\">类型：&&</p>",
+                "主演": "class=\"data\">主演：&&</p>",
+                "简介": "<div class=\"header-left\">&&</div>",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&<",
+                "播放链接": "href=\"&&\"",
+                "播放链接前缀": "https://6lhzry.com",
+                "分类": "国产精品&日韩亚洲&自拍偷拍&欧美精品&主播视频&中文字幕&日韩无码&动漫成人&推荐视频&同性人妖&巨乳颜射&口交自慰&制服淫穴&换脸AI区&三级综艺&重味3P&强奸乱伦&精品女优&人妻系列&极骚萝莉&HEYZO&独家诱惑&首次少女&高潮喷吹",
+                "分类值": "1&2&15&3&16&4&11&14&5&6&7&8&9&10&12&13&17&18&19&20&21&22&23&24",
+                "分类url": "https://6lhzry.com/vodtype/{cateId}-{catePg}.html"
+            },
+            "jar": "./Yoursmile.jar"
+        },
+        {
             "key": "Taohuazu",
             "name": "桃花族🔞🧲🛩️",
             "type": 3,
@@ -2154,6 +2238,16 @@
                 "分类url": "https://ysys336.xyz/vodshow/{cateId}--{by}-{class}-----{catePg}---{year}.html[https://ysys336.xyz/vodtype/{cateId}.html]",
                 "分类": "日韩爽片$1#国产精选$2#传媒合集$5#欧美激情$3#卡通动漫$4#三级伦理$20#怀旧AV$17#日韩无码$6#日韩有码$7#中文字幕$8#AV解说$9#精品素人$10#日本乱伦$12#国产精品$13#主播诱惑$23#探花约炮$24#绿帽淫妻$25#网曝吃瓜$26#明星淫梦$27#国产乱伦$28"
             }
+        },
+        {
+            "key": "py_黑料②",
+            "name": "黑料网(py)蜂蜜版",
+            "type": 3,
+            "api": "./py/py_黑料.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": ""
         },
         {
             "key": "csp_HK_黑料网",
