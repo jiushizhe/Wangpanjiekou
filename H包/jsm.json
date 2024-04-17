@@ -75,10 +75,29 @@
             "ext": "./lib/feimaolive.json"
         },
         {
+            "key": "csp_jy",
+            "name": "👠聚优┃直播",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./lib/聚优直播.json",
+            "jar": "./xb.jar"
+        },
+        {
+            "key": "色播",
+            "name": "色播🍓直播",
+            "type": 3,
+            "api": "./js/色播.js",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
             "key": "ss直播",
             "name": "🔞ss直播",
             "type": 3,
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "api": "./js/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -126,6 +145,7 @@
             "type": 3,
             "api": "csp_BtSearch",
             "searchable": 1,
+            "jar": "./pg0326.jar",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 0,
@@ -142,6 +162,7 @@
             "type": 3,
             "api": "csp_BtSearch",
             "quickSearch": 1,
+            "jar": "./pg0326.jar",
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
@@ -1266,6 +1287,19 @@
             "jar": "./Yoursmile.jar"
         },
         {
+            "name": "kxgav🔞",
+            "api": "https://www.kxgav.com/api/xml.php",
+            "group": "18+",
+            "status": true,
+            "type": 0,
+            "search": 2,
+            "key": "4eef8bc4-71f8-54fa-bffd-d1d3d9e77dce",
+            "id": 107,
+            "playUrl": "",
+            "isActive": true,
+            "resource": 16688
+        },
+        {
             "key": "好色TV",
             "name": "好色TV🔞",
             "type": 3,
@@ -2129,7 +2163,7 @@
         },
         {
             "key": "drpy_js_朱古力",
-            "name": "朱古力🔞🛩️",
+            "name": "🍓朱古┃力豆",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "filterable": 1,
@@ -2251,7 +2285,7 @@
             "filterable": 1,
             "ext": {
                 "站名": "色花堂",
-                "主页url": "https://6lhzry.com",
+                "主页url": "https://wpg0qk.com/",
                 "数组": "<div class=\"img-box cover-md\">&&</h6>",
                 "图片": "data-original=\"&&\"",
                 "标题": "<h6 class=\"title\">&&</a>",
@@ -2271,10 +2305,10 @@
                 "播放列表": "<a&&/a>",
                 "播放标题": ">&&<",
                 "播放链接": "href=\"&&\"",
-                "播放链接前缀": "https://6lhzry.com",
+                "播放链接前缀": "https://wpg0qk.com",
                 "分类": "国产精品&日韩亚洲&自拍偷拍&欧美精品&主播视频&中文字幕&日韩无码&动漫成人&推荐视频&同性人妖&巨乳颜射&口交自慰&制服淫穴&换脸AI区&三级综艺&重味3P&强奸乱伦&精品女优&人妻系列&极骚萝莉&HEYZO&独家诱惑&首次少女&高潮喷吹",
                 "分类值": "1&2&15&3&16&4&11&14&5&6&7&8&9&10&12&13&17&18&19&20&21&22&23&24",
-                "分类url": "https://6lhzry.com/vodtype/{cateId}-{catePg}.html"
+                "分类url": "https://wpg0qk.com/vodtype/{cateId}-{catePg}.html"
             },
             "jar": "./Yoursmile.jar"
         },
@@ -2587,7 +2621,7 @@
             "key": "短剧",
             "name": "上头短剧",
             "type": 3,
-            "api": "./js/drpy2.min2.js",
+            "api": "./js/drpy2.min1.js",
             "ext": "./js/上头短剧.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -2891,15 +2925,26 @@
             "filterable": 0
         },
         {
-            "key": "csp_xBPQ_新香蕉中文字幕",
-            "name": "新香蕉中文字幕",
+            "key": "蜜桃2",
+            "name": "蜜桃🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "./Yoursmile.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/蜜桃.json"
+        },
+        {
+            "key": "csp_xBPQ_香蕉中文字幕",
+            "name": "香蕉中文字幕",
             "type": 3,
             "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://agit.ai/weigs/w/raw/branch/master/JAR/Yoursmile2.jar",
-            "ext": "https://agit.ai/weigs/w/raw/branch/master/666/新香蕉中文字幕.json"
+            "jar": "./Yoursmile2.jar",
+            "ext": "./lib/香蕉中文.json"
         },
         {
             "key": "(18+)环亚资源",
