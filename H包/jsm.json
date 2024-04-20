@@ -49,6 +49,36 @@
             "searchable": 1
         },
         {
+            "ext": "eyJhcGkiOiJodHRwOi8vMTQuMjIzLjU1LjExMDo1MDA2IiwidG9rZW4iOiIifQ==",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "小雅",
+            "changeable": 0,
+            "jar": "http://14.223.55.110:5006/spring.jar",
+            "style": {
+                "type": "rect"
+            },
+            "api": "csp_XiaoYa",
+            "type": 3,
+            "key": "csp_XiaoYa1",
+            "searchable": 1
+        },
+        {
+            "ext": "eyJhcGkiOiJodHRwOi8vMTQuMjIzLjU1LjExMDo1MDA2IiwidG9rZW4iOiIifQ==",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "AList",
+            "changeable": 0,
+            "jar": "http://14.223.55.110:5006/spring.jar",
+            "style": {
+                "type": "rect"
+            },
+            "api": "csp_AList",
+            "type": 3,
+            "key": "csp_AList1",
+            "searchable": 1
+        },
+        {
             "key": "lf_js_lf_live",
             "name": "🧠直播|路飞",
             "type": 3,
@@ -167,6 +197,19 @@
             "filterable": 1,
             "timeout": 60,
             "ext": "null$$$null$$$1"
+        },
+        {
+            "key": "BT天堂",
+            "name": "🌈BT天堂 ┃ 影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类链接": "https://www.bt-tt.com/html/{cateId}-{catePg}.html"
+            },
+            "jar": "./XBPQ1.jar"
         },
         {
             "key": "AliShare",
@@ -577,6 +620,14 @@
                 "分类": "最新$id#最多$hits#推薦$score#最好$likes",
                 "分类url": "https://www.hanime.xyz/?sort={cateId}&page={catePg}[https://www.hanime.xyz/?sort={cateId}]"
             }
+        },
+        {
+            "key": "Hanime",
+            "name": "🔞Hanime",
+            "type": 3,
+            "api": "csp_Hanime",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "万佳影院",
@@ -1237,8 +1288,19 @@
             }
         },
         {
+            "key": "csp_爱丽丝",
+            "name": "爱丽丝json🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "./XBPQ.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/xbpq_爱丽丝.json"
+        },
+        {
             "key": "爱丽丝",
-            "name": "爱丽丝",
+            "name": "爱丽丝🔞",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./HeChengChaXiu.jar",
@@ -1300,12 +1362,106 @@
             "resource": 16688
         },
         {
+            "key": "视色",
+            "name": "视色(T)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./XBPQ.jar",
+            "ext": {
+                "请求头": "手机",
+                "免嗅": "",
+                "嗅探词": "https://s1.playhls.com/m3u8.php?",
+                "数组": "class=\"video-cover&&class=\"tags",
+                "图片": "style=\"background-image: url('&&');\"",
+                "标题": "href=\"*\">&&</a>",
+                "副标题": "duration\">&&</div>",
+                "简介": "简介：</div>&&</div>",
+                "链接": "https://shise.me/player.html?id=+href=\"video.html?id=&&\"",
+                "跳转播放链接": "",
+                "分类url": "https://shise.me/series.html?id={cateId}&page={catePg};;z",
+                "分类": "情色电影$61c4d9b653b6d#中文AV$63824a975d8ae#日本AV$6206216719462#模特私拍$6030196781d85#业余拍摄$617d3e7acdcc8#糖心Vlog$61014080dbfde#其他影片$60192e83c9e05"
+            }
+        },
+        {
+            "key": "MeijuTT",
+            "name": "MeijuTT",
+            "type": 3,
+            "api": "csp_MeijuTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Eighteen",
+            "name": "Eighteen🔞",
+            "type": 3,
+            "api": "csp_Eighteen",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "mv",
+            "name": "最新课程",
+            "type": 3,
+            "jar": "./XBPQ.jar",
+            "playerType": 2,
+            "api": "csp_XBPQ",
+            "ext": {
+                "站名": "222av.me",
+                "主页url": "http://041920.222av.me",
+                "首页": "最新课程",
+                "数组": "col-sm-6 col-md-4 col-lg-4&&<div class=\"video-added\">",
+                "链接": "href=\"&&\"",
+                "嗅探词": "http://m3u8.361lu.com/us.php?#https://m3u8.361lu.com/us.php?",
+                "分类url": "/videos/{cateId}?page={catePg};;z",
+                "分类": "全部&3D&素人&日本女优&自拍&金发洋物",
+                "分类值": "/&3d&amateur&japanese&selfie&western"
+            }
+        },
+        {
+            "key": "ppp",
+            "name": "ppp┃BPQ🔞🛩️",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "playerType": 1,
+            "api": "csp_XBPQ",
+            "jar": "./Yoursmile.jar",
+            "ext": {
+                "直接播放": "1",
+                "嗅探词": ".m3u8",
+                "数组": "<figure class=\"aspect-ratio\">&&</a",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "链接": "href=\"&&\"",
+                "播放链接前缀": "https://ppp.porn/v",
+                "搜索url": "https://ppp.porn/search/{wd}/",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索数组": "<figure class=\"aspect-ratio\">&&</a",
+                "分类": "中國AV$china-av#日本片商$japan-producer#素人自拍$amateur#中國$china#台湾$taiwan#日本$japan#東南亞$se-asia#韓國$korea#香港$hongkong#Cosplay$Cosplay#主播$streamer#主觀視角$first-person-pov#凌辱$bdsm#劇情$drama#多P$threesome#探花$91-tanhua#流出$released#无码$uncensored#百合$lesbian#野外露出$exhibitionists#OL$office-lady#動漫$acg#古裝$costume#女僕$maid#學生$student#旗袍$cheongsam#獸耳$kemonomimi#瑜伽褲$yoga-pants#真理褲$dolfin-shorts#空姐$flight-attendant#絲襪$pantyhose#護士$nurse#過膝襪$knee-socks",
+                "分类url": "https://ppp.porn/categories/{cateId}/{catePg}/;;a"
+            }
+        },
+        {
+            "key": "huoche",
+            "name": "火车36小时🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/火车36小时.js"
+        },
+        {
             "key": "好色TV",
             "name": "好色TV🔞",
             "type": 3,
             "changeable": 1,
             "searchable": 1,
-            "quickSearch": 1,
             "filterable": 1,
             "jar": "./XBPQ.jar",
             "api": "csp_XBPQ",
@@ -1339,6 +1495,17 @@
                 "分类": "无码$1#中文av$6#国产$2#制服巨乳$7#欧美$3#人妻乱伦$8#有码$4#日韩$9#自拍自慰$10#动漫$5#3P和sm$11#口交颜射$12#写真伦理$13",
                 "分类url": "http://2028p.com/vodtype/{cateId}-{catePg}/[http://2028p.com/vodtype/{cateId}/]"
             }
+        },
+        {
+            "key": "亚色",
+            "name": "亚色🔞🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "./Yoursmile.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/亚色影库.json"
         },
         {
             "key": "小鸭H",
@@ -1882,7 +2049,7 @@
                 "数组": "class=\"video-pic loading\"&&</a",
                 "图片": "data-original=\"&&\"",
                 "链接": "href=\"/detail/&&.html",
-                "链接前缀": "https://www.ccc09.cc/play/",
+                "链接前缀": "https://www.dsf58vfe.cc/play/",
                 "链接后缀": "-1-1.html",
                 "分类url": "https://www.ccc09.cc/vod/type/id/{cateId}/page/{catePg}.html",
                 "分类": "视频一区$1#视频二区$2#视频三区$3#国产精选$6#欧美大片$7#岛国大片$8#传媒影视$9#色情动漫$10#三级伦理$11#性爱直播$12#明星淫乱$13#SM调教$14#强奸轮奸$15#乱伦性爱$16#约炮探花$20#网曝泄密$21#萝莉少女$22#熟女人妻$23#绿帽淫妻$24#口爆颜射$25#自拍偷拍$26#男同女同$27#制服诱惑$28#AV解说$29",
@@ -2046,6 +2213,21 @@
             }
         },
         {
+            "key": "XVideos",
+            "name": "🔞XVideos | 直连",
+            "type": 3,
+            "api": "csp_Xv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://api.xv-api.com/api",
+            "jar": "./Xv.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            }
+        },
+        {
             "key": "csp_xBPQ_女优",
             "name": "女优🔞🛩️",
             "type": 3,
@@ -2160,6 +2342,36 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 60
+        },
+        {
+            "key": "jable",
+            "name": "💃👠 | jable",
+            "type": 3,
+            "changeable": 1,
+            "jar": "./Yoursmile.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "直接播放": "1",
+                "搜索模式": "1",
+                "搜索url": "https://jable.tv/search/{wd}/",
+                "数组": "<div class=\"img-box cover-md\">&&</h6>",
+                "图片": "data-src=\"&&\"",
+                "标题": "class=\"title\">&&</a>",
+                "链接": "href=\"&&\"",
+                "链接前缀": "https://jable.tv",
+                "副标题": "<span class=\"label\">&&</span>",
+                "播放数组": "<h6&&</h6>",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&<",
+                "播放链接": "href=\"&&\"",
+                "分类": "最近更新$latest-updates#最新上市$new-release#主奴调教$categories/bdsm#字幕$categories/chinese-subtitle#凌辱$categories/rape#制服$categories/uniform#角色$categories/roleplay#偷拍$categories/hidden-cam#无码解码$categories/uncensored#多P$categories/groupsex#丝袜$categories/pantyhose",
+                "分类url": "https://jable.tv/{cateId}/{catePg}/",
+                "免嗅": "0",
+                "嗅探词": ".m3u8#.mp4"
+            }
         },
         {
             "key": "drpy_js_朱古力",
@@ -2925,7 +3137,7 @@
             "filterable": 0
         },
         {
-            "key": "蜜桃2",
+            "key": "蜜桃",
             "name": "蜜桃🔞",
             "type": 3,
             "api": "csp_XBPQ",
@@ -3697,6 +3909,12 @@
             ]
         },
         {
+            "name": "最新课程",
+            "hosts": [
+                "http://img.mjviku.com"
+            ]
+        },
+        {
             "name": "量子",
             "hosts": [
                 "vip.lz",
@@ -4091,6 +4309,70 @@
         "pptv",
         "mgtv",
         "wasu"
+    ],
+    "ads": [
+        "https://img.mjviku.com",
+        "wan.51img1.com",
+        "iqiyi.hbuioo.com",
+        "vip.ffzyad.com",
+        "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3d.cn",
+        "mscs.svaeuzh.cn",
+        "cnzz.hhttm.top",
+        "tp.vinuxhome.com",
+        "cnzz.mmstat.com",
+        "www.baihuillq.com",
+        "s23.cnzz.com",
+        "z3.cnzz.com",
+        "c.cnzz.com",
+        "stj.v1vo.top",
+        "z12.cnzz.com",
+        "img.mosflower.cn",
+        "tips.gamevvip.com",
+        "ehwe.yhdtns.com",
+        "xdn.cqqc3.com",
+        "www.jixunkyy.cn",
+        "sp.chemacid.cn",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com",
+        "um.cavuc.com",
+        "mav.mavuz.com",
+        "wofwk.aoidf3.com",
+        "z5.cnzz.com",
+        "xc.hubeijieshikj.cn",
+        "tj.tianwenhu.com",
+        "xg.gars57.cn",
+        "k.jinxiuzhilv.com",
+        "cdn.bootcss.com",
+        "ppl.xunzhuo123.com",
+        "xomk.jiangjunmh.top",
+        "img.xunzhuo123.com",
+        "z1.cnzz.com",
+        "s13.cnzz.com",
+        "xg.huataisangao.cn",
+        "z7.cnzz.com",
+        "xg.huataisangao.cn",
+        "z2.cnzz.com",
+        "s96.cnzz.com",
+        "q11.cnzz.com",
+        "thy.dacedsfa.cn",
+        "xg.whsbpw.cn",
+        "s19.cnzz.com",
+        "z8.cnzz.com",
+        "s4.cnzz.com",
+        "f5w.as12df.top",
+        "ae01.alicdn.com",
+        "www.92424.cn",
+        "k.wudejia.com",
+        "vivovip.mmszxc.top",
+        "qiu.xixiqiu.com",
+        "cdnjs.hnfenxun.com",
+        "cms.qdwght.com"
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
