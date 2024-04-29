@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from base.spider import Spider
-import random
+
 
 sys.path.append('..')
 xurl = "https://jzy176.top"
@@ -14,21 +14,19 @@ headerx = {
 }
 res=requests.get(xurl, headers=headerx)
 match = re.search(r'<a href="(.*?)\/\?&"', res.text)
-
 if match:
     xurl=match.group(1)
 set_cookie_header = res.headers.get('Set-Cookie')
 headerx = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
-    'Cookie': set_cookie_header
+    'Cookie': set_cookie_header,
+    'Referer':xurl
 }
-
 
 class Spider(Spider):
     global xurl
     global headerx
-    global xurl2
-    global folder_path
+
 
     def getName(self):
         return "首页"
@@ -48,7 +46,7 @@ class Spider(Spider):
         url = xurl + "/list/xvs.html"
 
         try:
-            detail = requests.get(url=url, headers=headerx)
+            detail = requests.get(url=url, headers=headerx, timeout=10)
             detail.encoding = "utf-8"
             doc = BeautifulSoup(detail.text, "html.parser")
             soup = doc.find("div", class_='myvod')
@@ -74,12 +72,9 @@ class Spider(Spider):
         except:
             pass
 
-
-
-
     def homeContent(self, filter):
         url = xurl + "/list/xvs.html"
-        res = requests.get(xurl, headers=headerx)
+        res = requests.get(xurl, headers=headerx, timeout=10)
         res.encoding = "utf-8"
         doc = BeautifulSoup(res.text, "html.parser")
         sourcediv = doc.find_all('div', class_='myhot')
@@ -93,7 +88,7 @@ class Spider(Spider):
                 continue
             else:
                 id = id.replace("/list/xvs/", "")
-            id=id.replace('0.html', '')
+            id = id.replace('0.html', '')
             result['class'].append({'type_id': id, 'type_name': name})
         return result
 
@@ -102,8 +97,8 @@ class Spider(Spider):
         videos = []
         if not pg:
             pg = 1
-        url = xurl + cid+"/"+str(pg)+'.html'
-        detail = requests.get(url=url, headers=headerx)
+        url = xurl + cid + "/" + str(pg) + '.html'
+        detail = requests.get(url=url, headers=headerx, timeout=10)
         detail.encoding = "utf-8"
         doc = BeautifulSoup(detail.text, "html.parser")
         soup = doc.find("div", class_='myvod')
@@ -135,33 +130,38 @@ class Spider(Spider):
     def detailContent(self, ids):
         did = ids[0]
         result = {}
-        res = requests.get(url= did, headers=headerx)
-        res = res.text
-        source_match = re.search(r'"source": "(.*?)",', res)
-        if source_match:
-            plurl=source_match.group(1)
         videos = []
-        #<title>(.*?)-
-        source_match = re.search(r'<title>(.*?)-', res)
+        res = requests.get(url=did, headers=headerx, timeout=10)
+        res = res.text
+        source_match = re.search(r'<title>(.*?)- 剧情详细信息', res)
         if source_match:
             tx = source_match.group(1)
-        videos.append({
-            "vod_id": did,
-            "vod_name": tx,
-            "vod_pic": "",
-            "type_name": "ぃぅおか🍬 คิดถึง",
-            "vod_year": "",
-            "vod_area": "",
-            "vod_remarks": "",
-            "vod_actor": "",
-            "vod_director": "",
-            "vod_content": "",
-            "vod_play_from": "AV集中营",
-            "vod_play_url": plurl
-        })
+        source_match = re.search(r'<iframe src="(.*?)"', res)
+        if source_match:
+            plurl2 = source_match.group(1)
+        res = requests.get(url=xurl + plurl2, headers=headerx, timeout=10)
+        res = res.text
 
-        result['list'] = videos
-        return result
+        source_match = re.search(r'"source": "(.*?)",', res)
+        if source_match:
+            plurl = source_match.group(1)
+            videos.append({
+                "vod_id": did,
+                "vod_name": tx,
+                "vod_pic": "",
+                "type_name": "ぃぅおか🍬 คิดถึง",
+                "vod_year": "",
+                "vod_area": "",
+                "vod_remarks": "",
+                "vod_actor": "",
+                "vod_director": "",
+                "vod_content": "",
+                "vod_play_from": "AV集中营",
+                "vod_play_url": plurl
+            })
+
+            result['list'] = videos
+            return result
 
     def playerContent(self, flag, id, vipFlags):
         result = {}

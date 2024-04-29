@@ -61,7 +61,9 @@ class Spider(Spider):
             json_dict = json.loads(res.text)
             menu0ListMap = json_dict["data"]["resultList"]
             for item in menu0ListMap:
-                name = item['vod_name'].replace("yy8ycom", "")
+                name1 = item['vod_name'].replace("yy8ycom", "")
+                pattern = r'(.*?)-(.*?)-\d+\s+'
+                name = re.sub(pattern, '', name1)
                 id = item['id']
                 pic = item['vod_pic']
                 id2 = item['vod_server_id']
@@ -102,7 +104,9 @@ class Spider(Spider):
             json_dict = json.loads(res.text)
             menu0ListMap = json_dict["data"]["resultList"]
             for item in menu0ListMap:
-                name = item['vod_name'].replace("yy8ycom", "")
+                name1 = item['vod_name'].replace("yy8ycom", "")
+                pattern = r'(.*?)-(.*?)-\d+\s+'
+                name = re.sub(pattern, '', name1)
                 id = item['id']
                 pic = item['vod_pic']
                 id2 = item['vod_server_id']
@@ -125,10 +129,11 @@ class Spider(Spider):
         return result
 
     def detailContent(self, ids):
-        l10 = "https://hwus1.heibanwa.mobi"
-        l11 = 'https://hwus2-us4.heibanwa.mobi'
-        l12 = 'https://hweu1.heibanwa.mobi'
-        l13 = 'https://hweu2.hulichuang.mobi'
+        l10 = "https://server10.vuljers.com"
+        l11 = 'https://server11.vuljers.com'
+        l12 = 'https://server12.xylhwdu.com'
+        l13 = 'https://server13.benpsbp.com'
+        l14 = 'https://server14.connectr.cn'
         did = ids[0]
         cid, svid = did.split("#")
         videos = []
@@ -150,6 +155,8 @@ class Spider(Spider):
             purl = l12 + json_dict['data']["result"]["vod_url"]
         elif svid == "13":
             purl = l13 + json_dict['data']["result"]["vod_url"]
+        elif svid == "14":
+            purl = l14 + json_dict['data']["result"]["vod_url"]
         else:
             purl = json_dict['data']["result"]["vod_url"]
 
