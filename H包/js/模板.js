@@ -233,6 +233,30 @@ function getMubans() {
             searchable: 2,//是否启用全局搜索,
             quickSearch: 0,//是否启用快速搜索,
             filterable: 0,//是否启用分类筛选,
+        },   
+         青草: {
+            title: '',
+            host: '',
+            searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
+            url: '/index.php/vod/show/id/fyclass/page/fypage/',
+            headers: {
+                'User-Agent': 'MOBILE_UA'
+            },
+            
+            class_parse: '.row .item;li&&Text;a&&href;/(\\d+).html',
+            limit: 40,
+            play_parse: true,
+            lazy: '',
+            推荐:'.container&&.stui-vodlist__item;h4&&Text;.lazyload&&data-original;;a&&href',
+	一级: '.stui-vodlist&&li;h4&&Text;.lazyload&&data-original;;a&&href',
+	二级:{"title":"h3&&Text;.stui-content__detail&&p:eq(0)&&Text",
+               "tabs": ".stui-content__detail&&.btn-primary",
+                "lists": ".stui-content__detail&&.btn-primary:eq(#id) a"},
+
+            搜索: '.search-list;a&&title;.lazy&&data-original;.deployment&&Text;a&&href',
+            searchable: 1,//是否启用全局搜索,
+            quickSearch: 1,//是否启用快速搜索,
+            filterable: 1,//是否启用分类筛选,
         },
         短视: {
             title: '',
