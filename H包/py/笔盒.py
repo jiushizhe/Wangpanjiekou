@@ -9,7 +9,7 @@ from base.spider import Spider
 
 sys.path.append('..')
 
-xurl = "https://biheibo.pro"
+xurl = "https://biheedu.store"
 headerx = {
     'User-Agent': 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.9 Mobile Safari/537.36'
 }

@@ -7,11 +7,32 @@ import re
 from base.spider import Spider
 
 sys.path.append('..')
-
-xurl = "https://www.abxsp1.buzz"
 headerx = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36'
 }
+res=requests.get('https://www.fldz8.buzz/go.php',headers=headerx)
+res.encoding = "utf-8"
+
+match = re.search(r"var randUrl = '(.*?)'", res.text)
+if match:
+    xurl = match.group(1)
+
+a=0
+while a<5:
+    try:
+        res=requests.get(xurl,headers=headerx)
+        if res.status_code==200:
+            a=5
+    except:
+        res = requests.get('https://www.fldz8.buzz/go.php', headers=headerx)
+        res.encoding = "utf-8"
+        match = re.search(r"var randUrl = '(.*?)'", res.text)
+        if match:
+            xurl = match.group(1)
+        a=a+1
+
+
+
 class Spider(Spider):
     global xurl
     global headerx
@@ -27,6 +48,7 @@ class Spider(Spider):
 
     def manualVideoCheck(self):
         pass
+
     def fl(self, key):
         videos = []
         doc = BeautifulSoup(key, "html.parser")
@@ -52,6 +74,7 @@ class Spider(Spider):
             }
             videos.append(video)
         return videos
+
     def homeContent(self, filter):
         res = requests.get(xurl, headers=headerx, timeout=20)
         res.encoding = "utf-8"
@@ -70,26 +93,26 @@ class Spider(Spider):
         return result
 
     def homeVideoContent(self):
-        
+
         try:
             res = requests.get(url=xurl, headers=headerx)
             res.encoding = "utf-8"
             res = res.text
-            videos=self.fl(res)
+            videos = self.fl(res)
             result = {'list': videos}
             return result
         except:
             pass
 
     def categoryContent(self, cid, pg, filter, ext):
-        result = {}        
+        result = {}
         if not pg:
-            pg = 1        
-        try:            
+            pg = 1
+        try:
             res = requests.get(xurl + cid + '/page/' + str(pg) + '.html', headers=headerx)
             res.encoding = "utf-8"
             res = res.text
-            videos=self.fl(res)
+            videos = self.fl(res)
         except:
             pass
         result['list'] = videos
@@ -143,23 +166,23 @@ class Spider(Spider):
         return result
 
     def searchContentPage(self, key, quick, page):
-        result = {}        
+        result = {}
         if not page:
             page = 1
 
         res = requests.get(xurl + '/index.php/vod/search/page/' + str(page) + '/wd/' + key + '.html', headers=headerx)
         res.encoding = "utf-8"
         res = res.text
-        videos=self.fl(res)
+        videos = self.fl(res)
         result['list'] = videos
         result['page'] = page
         result['pagecount'] = 9999
         result['limit'] = 90
         result['total'] = 999999
         return result
+
     def searchContent(self, key, quick):
         return self.searchContentPage(key, quick, '1')
-
 
     def localProxy(self, params):
         if params['type'] == "m3u8":
