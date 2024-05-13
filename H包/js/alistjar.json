@@ -19,6 +19,18 @@
             "server": "http://127.0.0.1:5244/"
         },
         {
+            "name": "本地小雅",
+            "search": true,
+            "searchable": true,
+            "server": "http://192.168.31.118:5678/"
+        },
+        {
+            "name": "网盘群友",
+            "search": true,
+            "searchable": true,
+            "server": "http://36.140.110.103:10021/"
+        },
+        {
             "name": "🌱小雅备用",
             "server": "http://60.211.206.83:7006/"
         },
