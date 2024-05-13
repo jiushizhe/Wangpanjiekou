@@ -1,5 +1,6 @@
 {
     "spider": "./pg.jar",
+    "logo": "https://tuapi.eees.cc/api.php?category=meinv&px=m&type=302",
     "sites": [
         {
             "key": "酷狗",
@@ -10,6 +11,107 @@
             "changeable": 0
         },
         {
+            "key": "PikPakShare",
+            "name": "PikPakPikPak系列需挂梯",
+            "type": 3,
+            "api": "csp_PikPakShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz"
+        },
+        {
+            "key": "pikpakclass.a",
+            "name": "pp.a",
+            "type": 3,
+            "api": "csp_PikPakShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.a.json$$$./lib/pikpakclass.a.json.txt.gz"
+        },
+        {
+            "key": "pikpakclass.a1",
+            "name": "pp.a1",
+            "type": 3,
+            "api": "csp_PikPakShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.json.txt.gz"
+        },
+        {
+            "key": "Clg",
+            "name": "🐶磁力狗🧲",
+            "type": 3,
+            "api": "csp_Clg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "BtSearch",
+            "name": "BtSearch🧲",
+            "type": 3,
+            "api": "csp_BtSearch",
+            "searchable": 1,
+            "jar": "./pg0326.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://www.btsearch.love/$$$proxy$$$1",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "BtSow",
+            "name": "BtSow🧲",
+            "type": 3,
+            "api": "csp_BtSearch",
+            "quickSearch": 1,
+            "jar": "./pg0326.jar",
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
+        {
+            "key": "u9a9",
+            "name": "🔞u9a9|磁力🔞🧲🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./XBPQ.jar",
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "搜索url": "https://u9a9b.cc/?type=1&search={wd}&p={pg}",
+                "数组": "<tr&&</tr>",
+                "简介": "Date:</div>&&</",
+                "图片": " ",
+                "播放二次截取": "panel-footer clearfix&&</div>",
+                "播放数组": "<a&&</a>[不包含:Torrent]",
+                "分类": "DHT网络$1",
+                "分类url": "https://u9a9b.cc/?type=1{cate}&p={catePg};;m"
+            }
+        },
+        {
             "key": "Yinyuetai",
             "name": "🛰音悦台┃音乐",
             "type": 3,
@@ -17,6 +119,15 @@
             "searchable": 1,
             "changeable": 0,
             "jar": "./hanguomeinv.jar"
+        },
+        {
+            "key": "qiusai",
+            "name": "直播┃球赛直播",
+            "playerType": 2,
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "豆瓣",
@@ -62,15 +173,6 @@
             "name": "360自营",
             "type": 1,
             "api": "https://360zy.com/api.php/provide/vod/from/360zy?wd=",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "快看自营",
-            "name": "快看自营T",
-            "type": 1,
-            "api": "http://kuaikanzy.com/api.php/provide/vod/from/kuaikan?wd=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
@@ -167,15 +269,6 @@
             "jar": "./XBPQ.jar"
         },
         {
-            "key": "baipiaoys",
-            "name": "白嫖┃影视",
-            "type": 3,
-            "jar": "./3366.jar",
-            "api": "csp_BaiPiao",
-            "playUrl": "https://www.baipiao-ys.cc:6062/player/?url=",
-            "playerType": "2"
-        },
-        {
             "key": "lf_js_lf_live",
             "name": "🧠直播|路飞",
             "type": 3,
@@ -203,7 +296,7 @@
         },
         {
             "key": "csp_jy",
-            "name": "👠聚优┃直播",
+            "name": "👠聚优┃直播🛩️",
             "type": 3,
             "api": "csp_xBPQ",
             "playerType": 2,
@@ -248,36 +341,13 @@
             "ext": "./js/综合直播.js"
         },
         {
-            "key": "csp_xbpq_天天综合",
-            "name": "👄天天┃综合",
+            "key": "Pandalivetv",
+            "name": "💯韩女直播",
             "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./lib/xbpq_天天综合.json",
-            "jar": "./xyqxbpq.jar"
-        },
-        {
-            "key": "csp_xbp_天天综合",
-            "name": "👄天┃综合",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./lib/天天综合.json",
-            "jar": "./xyqxbpq.jar"
-        },
-        {
-            "key": "drpy_js_天天综合",
-            "name": "天天综合🔞",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/天天综合.js"
+            "api": "csp_WexPandalivetv",
+            "searchable": 0,
+            "changeable": 0,
+            "jar": "./wex.jar"
         },
         {
             "key": "色播",
@@ -298,8 +368,51 @@
             "ext": "./js/ss直播.js"
         },
         {
+            "key": "18🈲直播",
+            "name": "🔞直播点下方漏斗",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./香雅情.jar",
+            "ext": "./lib/18直播一号.json"
+        },
+        {
+            "key": "csp_xbpq_天天综合",
+            "name": "👄天天┃综合🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/xbpq_天天综合.json",
+            "jar": "./xyqxbpq.jar"
+        },
+        {
+            "key": "csp_xbp_天天综合",
+            "name": "👄天┃综合🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/天天综合.json",
+            "jar": "./xyqxbpq.jar"
+        },
+        {
+            "key": "drpy_js_天天综合",
+            "name": "天天综合点下方标签🔞🛩️",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/天天综合.js"
+        },
+        {
             "key": "18JTV",
-            "name": "18JTV🔞",
+            "name": "18JTV🔞🛩️",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./XBPQ.jar",
@@ -325,33 +438,13 @@
         },
         {
             "key": "草榴社区.js",
-            "name": "草榴社区js🔞",
+            "name": "草榴社区js🔞🛩️",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./js/草榴社区.js"
-        },
-        {
-            "key": "u9a9",
-            "name": "🔞u9a9|磁力🔞🧲🛩️",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./XBPQ.jar",
-            "style": {
-                "type": "list"
-            },
-            "ext": {
-                "搜索url": "https://u9a9b.cc/?type=1&search={wd}&p={pg}",
-                "数组": "<tr&&</tr>",
-                "简介": "Date:</div>&&</",
-                "图片": " ",
-                "播放二次截取": "panel-footer clearfix&&</div>",
-                "播放数组": "<a&&</a>[不包含:Torrent]",
-                "分类": "DHT网络$1",
-                "分类url": "https://u9a9b.cc/?type=1{cate}&p={catePg};;m"
-            }
         },
         {
             "key": "csp_xbpq_AV搜",
@@ -364,60 +457,6 @@
             "filterable": 1,
             "ext": "./lib/AV搜.json",
             "jar": "./xyqxbpq.jar"
-        },
-        {
-            "key": "Pandalivetv",
-            "name": "💯韩女直播",
-            "type": 3,
-            "api": "csp_WexPandalivetv",
-            "searchable": 0,
-            "changeable": 0,
-            "jar": "./wex.jar"
-        },
-        {
-            "key": "Clg",
-            "name": "🐶磁力狗🧲",
-            "type": 3,
-            "api": "csp_Clg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-        {
-            "key": "BtSearch",
-            "name": "BtSearch🧲",
-            "type": 3,
-            "api": "csp_BtSearch",
-            "searchable": 1,
-            "jar": "./pg0326.jar",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://www.btsearch.love/$$$proxy$$$1",
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-        {
-            "key": "BtSow",
-            "name": "BtSow🧲",
-            "type": 3,
-            "api": "csp_BtSearch",
-            "quickSearch": 1,
-            "jar": "./pg0326.jar",
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "null$$$null$$$1"
         },
         {
             "key": "bt天堂1",
@@ -706,13 +745,31 @@
             "ext": "null$$$null$$$1"
         },
         {
-            "key": "py_白嫖",
-            "name": "⭐白嫖py",
+            "key": "Wexhanxiaoquan",
+            "name": "🇰🇷韩圈┃TV",
             "type": 3,
-            "api": "./py/白嫖.py",
+            "api": "csp_Wexhanxiaoquan",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "changeable": 1,
+            "jar": "./wex.jar"
+        },
+        {
+            "key": "Wexhanjutv",
+            "name": "🇰🇷韩剧┃TV",
+            "type": 3,
+            "api": "csp_Wexhanjutv",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./wex.jar"
+        },
+        {
+            "key": "mingriyingshi",
+            "name": "☀️明日┃影视",
+            "type": 3,
+            "api": "csp_WexMingriys",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./wex.jar"
         },
         {
             "key": "py_新风",
@@ -767,7 +824,7 @@
         },
         {
             "key": " bkyy ",
-            "name": "布卡影院",
+            "name": "布卡影院伦理",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./Yoursmile.jar",
@@ -833,17 +890,6 @@
             "filterable": 1,
             "ext": "./lib/2077.json",
             "jar": "./xyqxbpq.jar"
-        },
-        {
-            "key": "92kyy",
-            "name": "92kyy影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./lib/92kyy.json"
         },
         {
             "key": "赘婿影视",
@@ -1014,14 +1060,6 @@
             }
         },
         {
-            "key": "蜜糖",
-            "name": "蜜糖动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./HeChengChaXiu.jar",
-            "ext": "线路数组:dropdown&&</div>,线路标题:<span>&&<+【+<small>&&+集】,简介:20px;\"&&</p>,分类url:https://www.mitang.tv/vodshow/by/{by}/id/{cateId}/page/{catePg}/;;mak,分类:新番$122A#番剧$T22A#剧场$l22A#极清$m22A#美漫$G22A"
-        },
-        {
             "key": "csp_动漫",
             "name": "🌸H动┃漫网🛩️🔞",
             "type": 3,
@@ -1109,7 +1147,7 @@
         },
         {
             "key": "四虎tv",
-            "name": "四虎3",
+            "name": "四虎🔞🛩️",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -1131,7 +1169,7 @@
         },
         {
             "key": "dr_开心每一天",
-            "name": "dr_开心每一天",
+            "name": "dr_开心每一天🔞🛩️",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "searchable": 1,
@@ -1146,40 +1184,6 @@
             "api": "csp_Hanime",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "童话村电影网",
-            "name": "童话村影",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "jar": "./Yoursmile.jar",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "数组": "stui-vodlist__box&&</li>",
-                "副标题": "text-right\">&&</span>",
-                "简介": "detail col-pd\">&&</span>",
-                "线路数组": "nore text-muted pull-right&&/h3>",
-                "线路标题": "title\">&&<",
-                "播放数组": "<ul class=\"stui-content__playlist&&</ul>",
-                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
-                "搜索url": "http://24hdh.com/vodsearch/-------------.html?wd={wd}&submit=",
-                "分类url": "http://24hdh.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html[http://24hdh.com/list/{cateId}-{catePg}.html]",
-                "分类": "电影&电视剧&综艺&动漫&伦理",
-                "分类值": "dianying&dianshiju&zongyi&dongman&lunlipian"
-            }
-        },
-        {
-            "key": "童话村",
-            "name": "童话村",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./lib/童话村.json",
-            "jar": "./HeChengChaXiu.jar"
         },
         {
             "key": "蜂鸟影视",
@@ -2087,6 +2091,59 @@
                 "分类url": "https://xiaoyakankan.com/cat/{cateId}-{catePg}.html"
             },
             "jar": "./Yoursmile.jar"
+        },
+        {
+            "key": "csp_顶级网曝",
+            "name": "顶级网曝🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "请求头": "手机",
+                "站名": "顶级网曝",
+                "主页url": "https://www.djwb3.top/",
+                "数组": "<li class=\"content-item\">&&</a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "播放数组": "<td>&&</td>",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "免嗅": "0",
+                "搜索url": "https://www.djwb3.top/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "嗅探词": ".m3u8#.mp4",
+                "分类url": "https://www.djwb3.top/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "分类数组": "<li&&</li>",
+                "分类标题": "href=\"/index.php/vod/type/id/*.html\" target=\"_blank\">&&</a>",
+                "分类ID": "/index.php/vod/type/id/&&.html"
+            }
+        },
+        {
+            "key": "我爱AV",
+            "name": "我爱AV社区|WO❤️🔞🛩️AV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
+                "副标题": "span class=\"pic-text text-right\">&&</p",
+                "线路数组": "<li&&</li>",
+                "线路标题": "✨PYLB专享✨+<h3> 私密专线 </h3> ",
+                "播放标题": ">&&</a",
+                "搜索模式": "1",
+                "搜索url": "/vodsearch/{wd}----------{pg}---.html",
+                "分类数组": "<li&&</li>",
+                "分类标题": ">&&</a",
+                "分类ID": "/vodtype/&&.html",
+                "分类链接": "https://vip.woaav.online:13097/vodshow/{cateId}--------{catePg}---.html"
+            }
         },
         {
             "key": "mtkan",
@@ -3107,7 +3164,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://thze.cc/"
+            "ext": "http://thzf.cc/"
         },
         {
             "key": "csp_射精教程",
@@ -3683,6 +3740,56 @@
             "recordable": 0
         },
         {
+            "key": "乐播",
+            "name": "🔞[十三]",
+            "type": 0,
+            "playUrl": "https://lbjx9.com/?url=",
+            "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+            "header": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+                "Referer": "https://lbjx9.com/",
+                "Accept-Encoding": "identity;q=1, *;q=0",
+                "Range": "bytes=0-"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            }
+        },
+        {
+            "key": "番外",
+            "name": "🔞[十七]",
+            "type": 1,
+            "api": "http://fhapi9.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            },
+            "categories": [
+                "群交淫乱",
+                "偷拍自拍",
+                "制服丝袜",
+                "无码专区",
+                "卡通动漫",
+                "中文字幕",
+                "欧美性爱",
+                "巨乳美乳",
+                "国产裸聊",
+                "国产自拍",
+                "国产盗摄",
+                "伦理三级",
+                "女同性恋",
+                "少女萝莉",
+                "人妖系列",
+                "虚拟VR"
+            ]
+        },
+        {
             "key": "富二代",
             "name": "🍇富家┃二代",
             "type": 0,
@@ -3901,42 +4008,6 @@
             "type": 0,
             "api": "https://www.gdlsp.com/api/xml.php",
             "searchable": 1
-        },
-        {
-            "key": "PikPakShare",
-            "name": "PikPakPikPak系列需挂梯",
-            "type": 3,
-            "api": "csp_PikPakShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz"
-        },
-        {
-            "key": "pikpakclass.a",
-            "name": "pp.a",
-            "type": 3,
-            "api": "csp_PikPakShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.a.json$$$./lib/pikpakclass.a.json.txt.gz"
-        },
-        {
-            "key": "pikpakclass.a1",
-            "name": "pp.a1",
-            "type": 3,
-            "api": "csp_PikPakShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.json.txt.gz"
         },
         {
             "key": "ext_live_protocol",
