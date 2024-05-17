@@ -447,6 +447,43 @@
             "ext": "./js/草榴社区.js"
         },
         {
+            "key": "比卡比卡",
+            "name": "比卡比卡🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./xbpq.jar",
+            "ext": "./lib/比卡比卡.json"
+        },
+        {
+            "key": "零太视频",
+            "name": "🍁零太视频🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "<div class=\"v-pic&&</a>",
+                "图片": "data-src=\"&&\"",
+                "图片代理": "1",
+                "标题": "title=\"&&\"",
+                "副标题": "v-tips\">&&</div>",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"/voddetail/&&.html\"",
+                "链接前缀": "https://ln.lntai.cc/vodplay/",
+                "链接后缀": "-1-1.html",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "搜索url": "https://ln.lntai.cc/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://ln.lntai.cc/vodshow/{cateId}--------{catePg}---.html;;z",
+                "分类": "精品薄码$20#中文对白$21#中字制服$22#字母翻译$22#经典电影$23#欧美系列$25#动漫专区$24#绝美丝袜$26#丰乳美臀$27#少女制服$28"
+            }
+        },
+        {
             "key": "csp_xbpq_AV搜",
             "name": "👅AV┃搜搜🛩️",
             "type": 3,
@@ -723,15 +760,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./js/alistjar.json"
-        },
-        {
-            "key": "Yinyuetai",
-            "name": "🛰音悦台┃音乐┃MV",
-            "type": 3,
-            "api": "csp_Yinyuetai",
-            "searchable": 1,
-            "jar": "./牛耳.jar",
-            "changeable": 0
         },
         {
             "key": "Bt0",
@@ -1087,6 +1115,102 @@
             }
         },
         {
+            "key": "沙咖影院",
+            "name": "🍁沙咖影院🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "stui-vodlist__thumb lazyload&&</a",
+                "图片": "data-original=\"&&\"",
+                "图片代理": "1",
+                "副标题": "pic-text text-right\">&&</span>",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"/voddetail/&&.html\"",
+                "链接前缀": "https://sar.sarga.cc/vodplay/",
+                "链接后缀": "-1-1.html",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "搜索url": "https://sar.sarga.cc/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://sar.sarga.cc/vodtype/{cateId}-{catePg}.html;;z",
+                "分类": "中文新作$20#国语视频$21#有码精品$24#动漫专场$23#经典伦理$25#欧美性爱$22"
+            }
+        },
+        {
+            "key": "红A影视",
+            "name": "🍁红A影视🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "<li><a&&</a></li>",
+                "图片": "src=\"&&\"",
+                "图片代理": "1",
+                "标题": "title=\"&&\"",
+                "副标题": "<span>&&</span>",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"/voddetail/&&.html\"",
+                "链接前缀": "https://red.redda.cc/vodplay/",
+                "链接后缀": "-1-1.html",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "搜索url": "https://red.redda.cc/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://red.redda.cc/vodtype/{cateId}-{catePg}.html;;z",
+                "分类": "中文暴力$20#中文美胸$21#中字制服$22#中字伦理$23#中字人妻$24#中字调教$25#中字出轨$26#本土短片$28"
+            }
+        },
+        {
+            "key": "巨怒影院",
+            "name": "🍁巨怒影院🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "hl-item-thumb hl-lazy&&</a",
+                "图片": "data-original=\"&&\"",
+                "图片代理": "1",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"/voddetail/&&.html\"",
+                "链接前缀": "https://agnu.cc/vodplay/",
+                "链接后缀": "-1-1.html",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "搜索url": "https://agnu.cc/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://agnu.cc/vodtype/{cateId}-{catePg}.html;;z",
+                "分类": "热播薄码$20#中文字幕$21#精品国产$22#丰满大胸$23#暴力乱伦$24#制服校生$25#人妻御姐$26#无码园地$27#动漫卡通$28#欧美系列$30"
+            }
+        },
+        {
+            "key": "努可影院",
+            "name": "🍁努可影院🔞🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "stui-vodlist__thumb lazyload&&</a",
+                "图片": "data-original=\"&&\"",
+                "图片代理": "1",
+                "副标题": "pic-text text-right\">&&</span>",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"/voddetail/&&.html\"",
+                "链接前缀": "https://2n2.abcoob.one/vodplay/",
+                "链接后缀": "-1-1.html",
+                "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+                "搜索url": "https://2n2.abcoob.one/vodsearch/{wd}-----/page/{pg}.html",
+                "分类url": "https://2n2.abcoob.one/vodtype/{cateId}-{catePg}.html;;z",
+                "分类": "新品日韩$20#中文字幕$21#短片本土$22#大胸美女$23#剧情暴力$24#制服扮演$25#人妻御姐$26#无码专区$27#动漫卡通$28#明星幻想$29"
+            }
+        },
+        {
             "key": "top888",
             "name": "top888|🔞🛩️",
             "type": 3,
@@ -1250,6 +1374,32 @@
             "jar": "./Yoursmile.jar"
         },
         {
+            "key": "全民影院🎬",
+            "name": "全民影院🎬有福利",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "http://www.sczyxxjc.com/",
+                "首页": "",
+                "起始页": "1",
+                "数组": "class=\"myui-vodlist__box\">&&</div>",
+                "链接": "href=\"&&\"",
+                "标题": "",
+                "副标题": "",
+                "简介": "",
+                "线路数组": "<h3&&</h3>",
+                "线路标题": "✨PYLB专享✨+>&&<",
+                "搜索url": "/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "http://www.sczyxxjc.com/vodshow/{cateId}-{area}---{lang}----{catePg}---{year}.html",
+                "分类": "电视剧$2#国产剧$13#香港剧$14#韩剧$15#欧美剧$16#台剧$20#日剧$21#其他剧$22#电影$1#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$24#纪录片$23#综艺$3#动漫$4#伦理$21"
+            }
+        },
+        {
             "key": "华人影视",
             "name": "🦚华人┃影视（正规有福利）",
             "type": 3,
@@ -1411,6 +1561,12 @@
         },
         {
             "key": "py_cctv",
+            "name": "🔴CCTV📺",
+            "type": 3,
+            "api": "./py/py_cctv.py"
+        },
+        {
+            "key": "py_cctv1",
             "name": "📺CCTV📺（正规）",
             "type": 3,
             "api": "./py/py_cctv_1.py",
@@ -1955,25 +2111,6 @@
             "api": "csp_Eighteen",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "mv",
-            "name": "最新课程",
-            "type": 3,
-            "jar": "./XBPQ.jar",
-            "playerType": 2,
-            "api": "csp_XBPQ",
-            "ext": {
-                "站名": "222av.me",
-                "主页url": "http://041920.222av.me",
-                "首页": "最新课程",
-                "数组": "col-sm-6 col-md-4 col-lg-4&&<div class=\"video-added\">",
-                "链接": "href=\"&&\"",
-                "嗅探词": "http://m3u8.361lu.com/us.php?#https://m3u8.361lu.com/us.php?",
-                "分类url": "/videos/{cateId}?page={catePg};;z",
-                "分类": "全部&3D&素人&日本女优&自拍&金发洋物",
-                "分类值": "/&3d&amateur&japanese&selfie&western"
-            }
         },
         {
             "key": "ppp",
@@ -2956,6 +3093,21 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 60
+        },
+        {
+            "key": "YOUPORN",
+            "name": "YOUPORN🔞🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "发布地址": "1:t.k758.cc,2:5.j971.cc,3:z.j971.cc",
+                "分类url": "https://x10m3qjl5hzll9f.com:58008/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类": "國產$1#黑料$7#無碼$2#有碼$3#歐美$4#動漫$5#情色$6"
+            }
         },
         {
             "key": "Jable",
