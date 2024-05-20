@@ -112,6 +112,26 @@
             }
         },
         {
+            "key": "有声1",
+            "name": "六月听书",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/六月听书.js"
+        },
+        {
+            "key": "有声2",
+            "name": "海洋听书",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/海洋听书.js"
+        },
+        {
             "key": "Yinyuetai",
             "name": "🛰音悦台┃音乐",
             "type": 3,
@@ -1281,6 +1301,40 @@
             "ext": "./lib/四虎.json"
         },
         {
+            "key": "四虎",
+            "name": "四虎影院🔞🛩️",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "searchable": 1,
+            "jar": "./xbpq.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "站名": "四虎影院",
+                "主页url": "https://www.4hu.tv/Enter/home.html",
+                "简介": "名称：&&</h3>",
+                "数组": "img class=\"nature&&</dl>",
+                "二次截取": "",
+                "图片": "data-original=\"&&.txt\"+.jpg",
+                "标题": "Base64((d('&&'));</script>",
+                "副标题": "",
+                "链接": "href=\"&&\"",
+                "线路数组": "target=\"_blank&&</a[排序:线路二>>]",
+                "线路标题": "Base64(d('&&'));</script>",
+                "播放数组": "item&&</div>",
+                "状态": "分类：</span>&&</p >",
+                "导演": "导演：</span>&&</p >",
+                "主演": "主演：</span>&&</p >",
+                "搜索模式": "1",
+                "搜索url": "https://www.4hu.tv/searchs/index.php?page={pg}&keyboard={wd}&classid=0",
+                "搜索数组": "<dt>&&</dt>",
+                "搜索标题": "_blank\"&&<",
+                "分类": "国产$video#自拍$video/zipai#淫妻作乐$video/fuqi#开放青年$video/kaifang#精品分享$video/jingpin#台湾辣妹$video/twmn#动漫卡通$video/dongman#经典三级$video/sanji#onlyfans主播$onlyfans#女优$av#女性向纯爱$av/nxx#GIGA女战士$av/giga#波多野结衣$av/bdyjy#深田咏美$av/stym#桥本有菜$av/qbyc#苍井空$av/cjk#三上悠亚$av/ssyy#吉泽明步$av/jzmb#电影$movie#无码中字$movie/wuma#SM系列$movie/sm#高清无码$movie/gaoqing#熟女人妻$movie/shunv#美颜巨乳$movie/meiyan#丝袜制服$movie/siwa#中文有码$movie/youma#欧美系列$movie/oumei",
+                "分类url": "https://www.4hu.tv/{cateId}/{class}/index_{catePg}.html[firstPage=https://www.4hu.tv/{cateId}/{class}/]"
+            }
+        },
+        {
             "key": "粉嫩影院",
             "name": "粉嫩影院",
             "type": 3,
@@ -1916,6 +1970,46 @@
             }
         },
         {
+            "key": "mv",
+            "name": "222av🔞",
+            "type": 3,
+            "jar": "./xbpq.jar",
+            "api": "csp_XBPQ",
+            "style": {
+                "ratio": 1.7
+            },
+            "ext": {
+                "站名": "222av.me",
+                "主页url": "http://222av.me",
+                "首页": "最新课程",
+                "数组": "col-sm-6 col-md-4 col-lg-4&&<div class=\"video-added\">",
+                "链接": "href=\"&&\"",
+                "嗅探词": "http://m3u8.361lu.com/us.php?",
+                "分类url": "/videos/{cateId}?page={catePg};;z",
+                "分类": "全部&3D&素人&日本女优&自拍&金发洋物",
+                "分类值": "/&3d&amateur&japanese&selfie&western"
+            }
+        },
+        {
+            "key": "x",
+            "name": "❤️XX┃合集🔞",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "style": {
+                "ratio": 1.7
+            },
+            "ext": {
+                "搜索url": "https://xpdhj.fun/xpdhj/vod/search/page/{pg}/wd/{wd}.html",
+                "分类": "仓库资源$1#AVXXC$2#AV奥斯卡$3#115资源$4",
+                "分类url": "https://xpdhj.fun/xpdhj/vod/type/id/{cateId}/page/{catePg}.html"
+            },
+            "jar": "./xbpq.jar"
+        },
+        {
             "key": "csp_爱丽丝",
             "name": "爱丽丝json🔞",
             "type": 3,
@@ -2184,6 +2278,26 @@
                 "搜索url": "http://2028p.com/vodsearch/----------{pg}---.html?wd={wd}&submit=",
                 "分类": "无码$1#中文av$6#国产$2#制服巨乳$7#欧美$3#人妻乱伦$8#有码$4#日韩$9#自拍自慰$10#动漫$5#3P和sm$11#口交颜射$12#写真伦理$13",
                 "分类url": "http://2028p.com/vodtype/{cateId}-{catePg}/[http://2028p.com/vodtype/{cateId}/]"
+            }
+        },
+        {
+            "key": "麻豆",
+            "name": "麻豆🔞",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./xbpq.jar",
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "style": {
+                "ratio": 1.7
+            },
+            "ext": {
+                "搜索url": "http://gcmd.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类": "日本视频$1#麻豆视频$2",
+                "分类url": "http://gcmd.cc/index.php/vod/show/class/{class}/id/{cateId}/page/{catePg}.html",
+                "直接播放": "1"
             }
         },
         {
@@ -2659,17 +2773,6 @@
             "filterable": 1,
             "jar": "./XBPQ1.jar",
             "ext": "./lib/试衣间做爱.json"
-        },
-        {
-            "key": "csp_麻豆",
-            "name": "新香蕉麻豆🔞（免梯子）",
-            "api": "csp_madou",
-            "type": 3,
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "jar": "./Madou.jar",
-            "ext": "https://21ppoo.vip"
         },
         {
             "key": "csp_xBPQ_GAOAA",
@@ -3265,6 +3368,13 @@
             }
         },
         {
+            "key": "SeHuaTang1",
+            "name": "🔞色花堂",
+            "type": 3,
+            "api": "csp_SeHuaTang",
+            "ext": "./lib/tokenm.json$$$null"
+        },
+        {
             "key": " ♥️色花堂  ",
             "name": "♥️色花堂",
             "type": 3,
@@ -3308,15 +3418,10 @@
         },
         {
             "key": "Taohuazu",
-            "name": "桃花族🔞🧲🛩️",
+            "name": "🔞桃花族|不用挂梯🔞",
             "type": 3,
             "api": "csp_Taohuazu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "http://thzf.cc/"
+            "ext": "./lib/tokenm.json$$$null"
         },
         {
             "key": "csp_射精教程",
@@ -3751,6 +3856,39 @@
             "jar": "./js/jKoN.js"
         },
         {
+            "key": "csp_麻豆",
+            "name": "新香蕉麻豆🔞（免梯子）",
+            "api": "csp_madou",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "jar": "./Madou.jar",
+            "ext": "https://21ppoo.vip"
+        },
+        {
+            "key": "csp_xBPQ_新香蕉AV解说",
+            "name": "新香蕉AV解说",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./Yoursmile2.jar",
+            "ext": "./lib/新香蕉AV解说.json"
+        },
+        {
+            "key": "csp_xBPQ_新香蕉实时直播",
+            "name": "🔞新香蕉实时直播",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./Yoursmile2.jar",
+            "ext": "./lib/新香蕉实时直播.json"
+        },
+        {
             "key": "csp_xBPQ_香蕉废柴",
             "name": "🔞香蕉废柴",
             "type": 3,
@@ -3763,7 +3901,7 @@
         },
         {
             "key": "csp_xBPQ_香蕉资源",
-            "name": "🔞香蕉资源",
+            "name": "🔞中文字幕",
             "type": 3,
             "api": "csp_xBPQ",
             "searchable": 1,
@@ -3890,6 +4028,15 @@
             "api": "https://kkzy.me/api.php/provide/vod/",
             "searchable": 1,
             "recordable": 0
+        },
+        {
+            "key": "麻豆",
+            "name": "🔞麻豆|采集|cdn2020",
+            "type": 1,
+            "api": "https://www.md91.cc/api.php/provide/vod/",
+            "style": {
+                "ratio": 1.7
+            }
         },
         {
             "key": "乐播",
