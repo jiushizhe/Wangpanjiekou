@@ -1,10 +1,18 @@
 {
     "drives": [
         {
-            "name": "远程alist",
+            "name": "网盘群友不忘初心",
             "search": true,
             "searchable": true,
-            "server": "https://86bd5a7f-1d7b-4fb9-963a-297af29c719b-00-21snn785l1p4z.kirk.replit.dev/"
+            "server": "http://36.140.110.103:10021/"
+        },
+        {
+            "name": "群友H盘",
+            "server": "http://36.140.110.103:10021/",
+            "login": {
+                "username": "qq",
+                "password": "123456"
+            }
         },
         {
             "name": "盒子",
@@ -19,16 +27,8 @@
             "server": "http://127.0.0.1:5244/"
         },
         {
-            "name": "本地小雅",
-            "search": true,
-            "searchable": true,
-            "server": "http://192.168.31.118:5678/"
-        },
-        {
-            "name": "网盘群友不忘初心",
-            "search": true,
-            "searchable": true,
-            "server": "http://36.140.110.103:10021/"
+            "name": "Ecve",
+            "server": "https://pan.ecve.cn/"
         },
         {
             "name": "🌱小雅备用",
@@ -123,6 +123,18 @@
                     "pass": "dooglu"
                 }
             ]
+        },
+        {
+            "name": "本地小雅",
+            "search": true,
+            "searchable": true,
+            "server": "http://192.168.31.118:5678/"
+        },
+        {
+            "name": "远程alist",
+            "search": true,
+            "searchable": true,
+            "server": "https://86bd5a7f-1d7b-4fb9-963a-297af29c719b-00-21snn785l1p4z.kirk.replit.dev/"
         }
     ]
 }
