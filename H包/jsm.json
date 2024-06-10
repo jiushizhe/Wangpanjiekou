@@ -159,6 +159,43 @@
             "api": "csp_Local"
         },
         {
+            "key": "Youtube1",
+            "name": "Youtube1🛩️",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "type": "推荐#首页#热门#游戏#美女#短剧#短视频#音乐#电影#合辑#伦理#中指通#分分鐘電影大咖#污娱社#来呀官人#直播#러블리 장미 룩북 LookBook#명아는 오또케 Auddk#飢餓遊戲完整版#綜藝玩很大 全集#奔跑吧兄弟加长版full#露营#音乐#免费推荐#女团#日本整人综艺#猜歌王#8K#4K#HDR#movie#music#documentary",
+                "proxy": "proxy"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
+            "key": "Youtube2",
+            "name": "Youtube2",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./lib/youtube.json",
+                "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+                "proxy": "proxy",
+                "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+                "codecs": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
             "key": "ylzy",
             "name": "一乐自营",
             "type": 1,
@@ -452,6 +489,56 @@
             "ext": "./js/草榴社区.js"
         },
         {
+            "key": "草莓秒播",
+            "name": "草莓秒播🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/草莓秒播.js"
+        },
+        {
+            "key": "黑料不打烊-z",
+            "name": "黑料不打烊-z🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/黑料不打烊-z.js"
+        },
+        {
+            "key": "黑料不打烊",
+            "name": "黑料不打烊🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/黑料不打烊.js"
+        },
+        {
+            "key": "爱爱影院2",
+            "name": "爱爱影院2🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/爱爱影院2.js"
+        },
+        {
+            "key": "乐草TV",
+            "name": "乐草TV🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/乐草TV.js"
+        },
+        {
             "key": "比卡比卡",
             "name": "比卡比卡🔞",
             "type": 3,
@@ -462,6 +549,18 @@
             "filterable": 1,
             "jar": "./xbpq.jar",
             "ext": "./lib/比卡比卡.json"
+        },
+        {
+            "key": "夜夜新郎.",
+            "name": "夜夜新郎🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./xbpq.jar",
+            "ext": "./lib/夜夜新郎.json"
         },
         {
             "key": "hipy_js_Pornhub-z",
@@ -475,16 +574,16 @@
             "ext": "./js/Pornhub-z.js"
         },
         {
-			"key": "29片库",
-			"name": "29片库🔞",
-			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 15,
-			"ext": "./js/29片库.js"
-		},
+            "key": "29片库",
+            "name": "29片库🔞",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 15,
+            "ext": "./js/29片库.js"
+        },
         {
             "key": "零太视频",
             "name": "🍁零太视频🔞",
@@ -3527,7 +3626,7 @@
         },
         {
             "key": "Netflav",
-            "name": "Netflav🔞🧲",
+            "name": "Netflav🔞🧲🛩️",
             "type": 3,
             "api": "csp_Netflav",
             "searchable": 1,
@@ -3660,7 +3759,7 @@
             "name": "🔞桃花族|🔞",
             "type": 3,
             "api": "csp_Taohuazu",
-            "ext": "./lib/tokenm.json$$$http://777630.xyz/"
+            "ext": "./lib/tokenm.json$$$http://777631.xyz/"
         },
         {
             "key": "csp_射精教程",
@@ -4710,6 +4809,16 @@
             "filterable": 0,
             "timeout": 60,
             "ext": "./lib/tokenm.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.json.txt.gz"
+        },
+        {
+            "key": "海阔专用",
+            "name": "番茄小说[书]海阔",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/番茄小说[书]海阔.js"
         },
         {
             "key": "ext_live_protocol",
