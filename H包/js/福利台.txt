@@ -8,6 +8,9 @@
     },{
   "name": "ipv42",
         "url": "https://files.catbox.moe/swl0nl.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
+    },{
+  "name": "2400部惊恐电影",
+        "url": "https://files.catbox.moe/fjjqsw.txt&&&https://v2.api-m.com/api/meinvpic?return=302"
     },
 
 {

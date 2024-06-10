@@ -4,7 +4,11 @@
             "name": "网盘群友不忘初心",
             "search": true,
             "searchable": true,
-            "server": "http://36.140.110.103:10227/"
+            "server": "http://qqpyf.vip/",
+            "login": {
+                "username": "qq",
+                "password": "123456"
+            }
         },
         {
             "name": "群友H盘",
@@ -26,7 +30,6 @@
             "searchable": true,
             "server": "http://127.0.0.1:5245/"
         },
-       
         {
             "name": "Ecve",
             "server": "https://pan.ecve.cn/"
