@@ -25,7 +25,13 @@
             "server": "http://192.168.31.239:5244/"
         },
         {
-            "name": "手机",
+            "name": "手机1",
+            "search": true,
+            "searchable": true,
+            "server": "http://192.168.31.177:5244/"
+        },
+        {
+            "name": "手机2",
             "search": true,
             "searchable": true,
             "server": "http://127.0.0.1:5245/"
