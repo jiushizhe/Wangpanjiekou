@@ -28,7 +28,7 @@
             "api": "csp_AList",
             "searchable": 1,
             "filterable": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "./js/alistjar.json"
         },
         {
@@ -185,6 +185,25 @@
             "changeable": 0,
             "ext": {
                 "json": "./lib/youtube.json",
+                "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+                "proxy": "proxy",
+                "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+                "codecs": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },{
+            "key": "Youtube3",
+            "name": "武哥Youtube3",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./lib/武哥youtube.json",
                 "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
                 "proxy": "proxy",
                 "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
@@ -551,6 +570,17 @@
             "ext": "./lib/比卡比卡.json"
         },
         {
+            "key": "csp_XYQHiker_300分类",
+            "name": "♥300分类♥🔞",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./香雅情.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/300分类.json"
+        },
+        {
             "key": "夜夜新郎.",
             "name": "夜夜新郎🔞",
             "type": 3,
@@ -583,6 +613,23 @@
             "filterable": 1,
             "order_num": 15,
             "ext": "./js/29片库.js"
+        },
+        {
+            "key": "千百撸",
+            "name": "千百撸|学日语🔞",
+            "type": 3,
+            "playerType": 1,
+            "api": "csp_XBPQ",
+            "jar": "./xbpq.jar",
+            "ext": {
+                "直接播放": "1",
+                "数组": "col-sm-6 col-md-4 col-lg-4&&<div class=\"video-added\">[不包含:88A8#东亚娱乐城]",
+                "链接": "href=\"&&\"",
+                "跳转播放链接": "https://+source src=\"//&&\"",
+                "分类url": "http://041920.222av.me/videos/{cateId}?page={catePg}",
+                "分类": "全部&3D&素人&日本女优&自拍&金发洋物",
+                "分类值": "/&3d&amateur&japanese&selfie&western"
+            }
         },
         {
             "key": "零太视频",
